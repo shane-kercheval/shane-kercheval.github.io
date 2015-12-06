@@ -1,85 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="icon" type="image/png" href="img/favicon.png">
-        <title>Startup Consulting</title>
-        <meta name="description" content="Have an idea? I help first-time entrepreneurs strategize and launch.">
-        <meta name="keywords" content="startups, strategy, consulting, ideas">
-        <meta name="author" content="Shane Kercheval">
-        <meta name="Robots" content="all">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600|Homemade+Apple' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--lock layout to the size of the window, so user doesn't have to zoom-->
-    </head>
-    <body>
-        <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5CNNSG"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5CNNSG');</script>
-        <!-- End Google Tag Manager -->
-        <header class="header">
-            <nav class="nav"> <!-- doesn't have any HTML significance, just is going to help us seperate -->
-                <ul>
-                    <li><a href="index.html" class="selected">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="/blog/" target="_blank">Blog</a></li>
-                </ul>
-            </nav>
-            <span>Shane Kercheval</span>
-            <h1>Startup Consulting</h1>
-            <br/>
-            <br/>
-            <a href="getting-started.html" target="_blank" class="button" >Get Started</a>
-        </header>
-        <div class="wrapper">
-            <h2>
-                Most Startups Fail.
-            </h2>
-            <p>
-Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming. I help entrepreneurs build a strategy that decreases risk and uncovers opportunities.
-            </p>
-            <ul class="boxlist">
-                <li class="offerings">
-                    <div class="first-item offering-title">Strategy Formation</div>
-                    <p class="list-description">This package is for first-time founders who want to figure out the best way to move forward. Together, we&rsquo;ll come up with a strategy that explains how to move forward and overcome the inherent challenges, and we&rsquo;ll a framework for decision making that reduces risk.</p>
-                </li>
-                <li class="offerings">
-                    <div class="second-item offering-title">OnGoing Consulting</div>
-                    <p class="list-description">This package is for first-time founders who want continual expertise and feedback while growing their business. You will get ongoing strategic advice and insight from someone who will become part of your team. Together, we&rsquo;ll move faster and overcome challenges.</p>
-                </li>
-                <li class="offerings">
-                    <div class="third-item offering-title">Financial Forecasting</div>
-                    <p class="list-description">This package is for first-time founders who need to develop a financial forecast model for new business ideas. A lot of startups fail because they simply don&rsquo;t forecast correctly. Together, we&rsquo;ll come up with a realistic forecast model that allows you to plan for success.</p>
-                </li>
-            </ul>
-        </div>
-        <testimonials>
-        <div class="gray">
-            <div class="wrapper">
-                <h2>Testimonials</h2>
-                <ul class="boxlist">
-                    <li class="testimonial-component">
-                        <p  class="list-description">"I have been working with Shane Kercheval for about a year now. Shane understands business, strategy and what it&rsquo;s going to take to make a business successful. He will look at every angle and will come back to you and tell you things that you don&rsquo;t want to hear; he&rsquo;s going to tell you his honest opinion on what needs to be enhanced, changed, or deleted from your business plan. Now as I look back almost a year later, the value that I received from Shane is worth way more then I think he even realizes. Thanks Shane for helping GoDirect Foods start on the right track."</p>
-                        <p class="signature">
-                            JC Conrad
-                        </p>
-                        <p class="company">
-                            Founder / CEO of GoDirect Foods
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </testimonials>
-        <footer>
-            <a href="http://twitter.com/shanekercheval" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-            <p>&copy; 2014-<script>document.write(new Date().getFullYear())</script> Shane Kercheval.</p>
-        </footer>
-    </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
