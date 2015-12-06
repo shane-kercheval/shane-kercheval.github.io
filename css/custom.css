@@ -1,0 +1,63 @@
+.site-header {
+    border-top: 8px solid orange;
+}
+.site-header-landing {
+    background-image: radial-gradient(circle at top right, darkorange, orange);
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.site-header-landing .site-title {
+    color: white;
+    font-size: 3em;
+}
+
+.site-header-landing .site-nav .page-link {
+    color: white;
+}
+
+a,a:link,a:visited
+{
+ color: darkorange;
+ text-decoration:none;
+}
+a:hover { /* any nav link (a) that has the class selected will get these attributes */
+    color: #00ACFF;
+}
+/* use on box type lists */
+.boxlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.offering-title {
+    font-size: 1.2em;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: solid 3px;
+}
+.list-description {
+    font-size: 0.9em;
+}
+.first-item {
+    border-bottom-color: dodgerblue;
+}
+
+.second-item {
+    border-bottom-color: red;
+}
+
+.third-item {
+    border-bottom-color: green;
+}
+
+@media screen and (min-width: 600px) { /* if the screen width is larger than 600px than apply the following styles
+    480px is common for phones in landscape mode*/
+
+    /* if the screen is larger than 580 we want to show the offerings in 3 columns */
+    .offerings {
+        float: left; /*this allows the list items to be placed left to right rather than up/down*/
+        width: 25%;
+        margin: 4.16666%;
+    }
+}
