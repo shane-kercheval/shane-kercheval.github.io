@@ -1,17 +1,18 @@
 .site-header {
     border-top: 8px solid orange;
 }
-.site-header-landing {
+.landing_page .site-header {
     background-image: radial-gradient(circle at top right, darkorange, orange);
     padding-bottom: 50px;
     margin-bottom: 30px;
+    border-top: 0px;
 }
-.site-header-landing .site-title {
+.landing_page .site-title {
     color: white;
     font-size: 3em;
 }
 
-.site-header-landing .site-nav .page-link {
+.landing_page .site-nav .page-link {
     color: white;
 }
 
