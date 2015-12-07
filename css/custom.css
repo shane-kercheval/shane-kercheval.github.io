@@ -1,40 +1,29 @@
-.site-header {
+.site-header {/* header.html */
     border-top: 8px solid orange;
 }
-
+.landing_page .site-header { /* landing_page.html */
+    background-image: radial-gradient(circle at top right, darkorange, orange);
+    padding-bottom: 80px;
+    border-top: 0px;
+}
 .landing_page .wrapper {
     line-height: 1.5;
     font-size: 1em;
     color: #595959;
 }
-
 .landing_page .description {
     font-size: 1.1em;
     text-align: center;
-
 }
-
-.landing_page .site-header {
-    background-image: radial-gradient(circle at top right, darkorange, orange);
-    padding-bottom: 90px;
-    border-top: 0px;
-}
-
 .landing_page .site-title {
     color: white;
     font-size: 4em;
-	font-weight: normal;
-    line-height: 1;
+    font-weight: normal;
     text-align: center;
-    margin-left: auto;
-    clear:both;
-
-    display:block;
-    height: 100%;
-    margin: 20px auto;
     width: 100%;
+    margin: 20px auto;
+    line-height: 1.1;
 }
-
 .landing_page .owner {
     color: white;
     padding-top: 20px;
@@ -47,21 +36,17 @@
     width: 250px;
     display: block;
     clear: both;
-    height: 100%;
     margin: 0 auto;
 }
-
 .landing_page h2 {
     font-size: 1.8em;
     font-weight: bold;
     text-align: center;
 
 }
-
 .landing_page .site-nav .page-link {
     color: white;
 }
-
 a,a:link,a:visited
 {
  color: darkorange;
@@ -89,13 +74,34 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .first-item {
     border-bottom-color: dodgerblue;
 }
-
 .second-item {
     border-bottom-color: red;
 }
-
 .third-item {
     border-bottom-color: green;
+}
+/*************
+** Testimonials Section
+**************/
+.testimonial-component {
+    max-width: 300px;
+    border-radius: 2%;
+    border: 1px #E8E8E8 solid;
+    padding: 5px 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.signature {
+    font-family: 'Homemade Apple', cursive;
+    padding:0;
+    margin: 0px 40px;
+    color:black;
+}
+.company {
+    color: black;
+    margin: 0 40px;
+    font-size: 0.75em
 }
 
 @media screen and (min-width: 600px) { /* if the screen width is larger than 600px than apply the following styles
@@ -107,4 +113,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
         width: 25%;
         margin: 4.16666%;
     }
+    .testimonial-component {
+       width: 40%;
+       margin: 0 5% 20px 5%;
+       vertical-align : middle;
+   }
 }
