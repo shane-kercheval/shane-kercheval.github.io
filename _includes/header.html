@@ -20,6 +20,9 @@
       </div>
     </nav>
 
+    {% if page.owner %}
+    <span class="owner">{{ page.owner }}</span>
+    {% endif %}
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 
