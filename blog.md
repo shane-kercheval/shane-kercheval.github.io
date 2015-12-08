@@ -5,6 +5,7 @@ permalink: /blog/
 include_in_nav: true
 ---
 <div class="home">
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
   <h1 class="page-heading">Posts</h1>
 
@@ -16,10 +17,13 @@ include_in_nav: true
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        {{ post.excerpt }}
+
+        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+
+
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
