@@ -21,6 +21,9 @@ include_in_nav: true
   <a href="http://twitter.com/intent/tweet?screen_name=shanekercheval"
   target="_blank">@ShaneKercheval</a>
   </li>
+  <li style="font-style:italic">
+  (or use the message box below!)
+  </li>
   </ul>
-  <p>Or click <a href="https://www.dropbox.com/s/3t6jofbr9babvek/Resume%20-%20Shane%20Kercheval.pdf?dl=0" target="_blank">here</a> for my resume.</p>
+  <p>Click <a href="https://www.dropbox.com/s/3t6jofbr9babvek/Resume%20-%20Shane%20Kercheval.pdf?dl=0" target="_blank">here</a> for my resume.</p>
 </section>
