@@ -1,3 +1,6 @@
+body{
+  overflow-x:hidden;
+}
 .site-header {/* header.html */
     border-top: 8px solid orange;
 }
