@@ -175,9 +175,13 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
     font-size: 0.8em;
 }
 
-@media screen and (min-width: 600px) { /* if the screen width is larger than 600px than apply the following styles
-    480px is common for phones in landscape mode*/
+@media screen and (max-width: 600px){
+  .landing_page .site-nav .page-link {
+      color: #424242;
+  }
+}
 
+@media screen and (min-width: 600px) {
     /* if the screen is larger than 580 we want to show the offerings in 3 columns */
     .offerings {
         float: left; /*this allows the list items to be placed left to right rather than up/down*/
