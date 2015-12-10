@@ -7,8 +7,24 @@ include_in_nav: true
 <div class="home">
 
     <section id="blogs">
-        <h1 class="page-heading">Posts</h1>
-
+        <h1 class="page-heading">Posts</h1>        
+        {% for tag in site.categories %}
+            <h2 id="{{ tag[0] }}" style="display: none">{{ tag[0] | capitalize }}</h2>
+            <ul class="post-by-category {{ tag[0] }}" style="display: none">
+                {% assign pages_list = tag[1] %}  
+                {% for post in pages_list %}
+                    {% if post.title != null %}
+                        {% if group == null or group == post.group %}
+                            <li><a href="{{ site.url }}/blog">{{ post.title }}</a></li>
+                        <!--<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a>
+                            </li>-->
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% assign pages_list = nil %}
+                {% assign group = nil %}
+            </ul>
+        {% endfor %}
         <ul class="post-list">
             {% for post in site.posts %}
                 <li>
@@ -39,23 +55,8 @@ include_in_nav: true
             {% endif %}
             {% assign tags_list = nil %}
         </ul>
-        <!-- This code groups blogs by site, not exactly what I want but I want to keep the code
-        {% for tag in site.categories %}
-            <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-            <ul class="post-list">
-                {% assign pages_list = tag[1] %}  
-                {% for post in pages_list %}
-                    {% if post.title != null %}
-                        {% if group == null or group == post.group %}
-                            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-                {% assign pages_list = nil %}
-                {% assign group = nil %}
-            </ul>
-        {% endfor %}
-        -->
+
+
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </section>
 </div>

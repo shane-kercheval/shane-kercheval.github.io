@@ -152,6 +152,10 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
     list-style: none;
     margin-left: 0;
 }
+.post-by-category {
+  list-style: none;
+  margin-left: 0;
+}
 /*************
 ** Blog posts
 **************/
