@@ -2,14 +2,19 @@
 $(".category-list a").click(function(event){
   event.preventDefault();
 
-  $(".post-by-category").hide();
-
-  //we ne
+  //get the name of the category that was clicked
   var category_name = $(this).text();
-  var category = category_name.split(" ")[0].toLowerCase();
+  if(category_name === "Show All"){
+    $( "li[categories]" ).show();
+  }
+  else {
+    //"<category> <(#)>we need to break off the actual <category>
+    var category = category_name.split(" ")[0].toLowerCase();
 
-  $(".post-list").hide();
-  $(".category-list").show();
-  $("."+category).show();
+    //hide all the list item elements with a category attribute
+    $( "li[categories]" ).hide();
+    //show all the list item attirbutes that match the category - https://api.jquery.com/attribute-contains-word-selector/
+    $( "li[categories~="+category+"]" ).show();
 
+  }
 })
