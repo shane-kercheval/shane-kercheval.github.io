@@ -6,8 +6,8 @@ description: > # this means to ignore newlines
     Have an idea?<br>
     I help first-time entrepreneurs strategize and launch.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "127.0.0.1"
-#url: "http://shanekercheval.me" # the base hostname & protocol for your site
+#url: "127.0.0.1"
+url: "http://shanekercheval.me" # the base hostname & protocol for your site
 twitter_username: shanekercheval
 
 # Build settings
