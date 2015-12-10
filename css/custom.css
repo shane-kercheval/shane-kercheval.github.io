@@ -140,11 +140,23 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
     margin-left: 0;
 }
 /*************
+** /blogs/
+**************/
+#blogs {
+    text-align: center;
+}
+#blog-info {
+    text-align: center;
+}
+.category-list {
+    list-style: none;
+    margin-left: 0;
+}
+/*************
 ** Blog posts
 **************/
 .rss-subscribe {
     font-size: 0.9em;
-    text-align: right;
 }
 .read-more {
     font-style: italic;
@@ -185,5 +197,16 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
    }
    #primary-contact img {
        margin-left: 25px;
+   }
+
+   #blogs {
+       width: 70%;
+       float: left;
+       text-align: left;
+   }
+   #blog-info {
+       width: 20%;
+       float: right;
+       text-align: left;
    }
 }
