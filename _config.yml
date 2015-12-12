@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
 twitter_username: shanekercheval
+posts_per_page: 2
 
 # Build settings
 markdown: kramdown

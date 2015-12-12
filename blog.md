@@ -8,9 +8,9 @@ include_in_nav: true
 
     <section id="blogs">
         <h1 class="page-heading">Posts</h1>   
-        <ul class="post-list">
+        <ul class="post-list" posts_per_page="{{ site.posts_per_page }}">
             {% for post in site.posts %}
-                <li categories="{{ post.categories | join: ' ' }}">
+                <li categories="{{ post.categories | join: ' ' }}" index_number="{{ forloop.index }}">
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                     <h2>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -20,6 +20,7 @@ include_in_nav: true
                 </li>
             {% endfor %}
         </ul>
+        <span id="page_numbers"></span>
     </section>
 
     <section id="blog-info">
@@ -37,7 +38,7 @@ include_in_nav: true
                 {% endfor %}
             {% endif %}
             {% assign tags_list = nil %}
-            
+
             <li id="show-all"><a href="" style="font-style:italic">Show All</a></li>
         </ul>
 
