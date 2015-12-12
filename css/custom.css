@@ -2,125 +2,120 @@ body{
   overflow-x:hidden;
 }
 .site-header {/* header.html */
-    border-top: 8px solid orange;
+  border-top: 8px solid orange;
 }
 .landing_page .site-header { /* landing_page.html */
-    background-image: radial-gradient(circle at top right, darkorange, orange);
-    padding-bottom: 80px;
-    border-top: 0px;
-}
-.landing_page .wrapper {
-    line-height: 1.5;
-    font-size: 1em;
-    color: #4D4D4D;
+  background-image: radial-gradient(circle at top right, darkorange, orange);
+  padding-bottom: 80px;
+  border-top: 0px;
 }
 .landing_page .description {
-    font-size: 1.1em;
-    text-align: center;
+  font-size: 1.1em;
+  text-align: center;
 }
 .landing_page .site-title {
-    color: white;
-    font-size: 4em;
-    font-weight: normal;
-    text-align: center;
-    width: 100%;
-    margin: 20px auto;
-    line-height: 1.1;
+  color: white;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+  line-height: 1.1;
 }
 .landing_page .owner {
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid;
-    font-size: 1.6em;
-    letter-spacing: 1.3px;
-    font-weight: lighter;
-    text-align: center;
-    width: 250px;
-    display: block;
-    clear: both;
-    margin: 0 auto;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  font-size: 1.6em;
+  letter-spacing: 1.3px;
+  font-weight: lighter;
+  text-align: center;
+  width: 250px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
 }
 .landing_page h2 {
-    font-size: 1.8em;
-    font-weight: bold;
-    text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
 
 }
 .landing_page .site-nav .page-link {
-    color: white;
+  color: white;
 }
 a,a:link,a:visited
 {
- color: darkorange;
- text-decoration:none;
+  color: darkorange;
+  text-decoration:none;
 }
 a:hover { /* any nav link (a) that has the class selected will get these attributes */
-    color: #00ACFF;
+  color: #00ACFF;
 }
 /* use on box type lists */
 .boxlist {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 .offering-title {
-    font-size: 1.2em;
-    color: black;
-    text-transform: uppercase;
-    border-bottom: solid 3px;
+  font-size: 1.2em;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: solid 3px;
 }
 .list-description {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 .first-item {
-    border-bottom-color: dodgerblue;
+  border-bottom-color: dodgerblue;
 }
 .second-item {
-    border-bottom-color: red;
+  border-bottom-color: red;
 }
 .third-item {
-    border-bottom-color: green;
+  border-bottom-color: green;
 }
 /*************
 ** Testimonials Section
 **************/
 .gray {
-    background-image: radial-gradient(circle at center, #ABABAB, #fdfdfd);
-    clear: both;
-    height:100%;
-    width:100%;
-    padding-left: 1000px;
-	margin-left: -1000px;
-    padding-right: 1000px;
-    margin-right: -1000px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: inline-block;
+  background-image: radial-gradient(circle at center, #ABABAB, #fdfdfd);
+  clear: both;
+  height:100%;
+  width:100%;
+  padding-left: 1000px;
+  margin-left: -1000px;
+  padding-right: 1000px;
+  margin-right: -1000px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
 }
 .gray h2 {
-    color: white;
+  color: white;
 }
 .testimonial-component {
-    background-color: #fdfdfd;
-    max-width: 300px;
-    border-radius: 2%;
-    padding: 5px 20px;
-    text-align: left;
-    margin-bottom: 20px;
-    display: inline-block;
+  background-color: #fdfdfd;
+  max-width: 300px;
+  border-radius: 2%;
+  padding: 5px 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 .signature {
-    font-family: 'Homemade Apple', cursive;
-    padding:0;
-    margin: 0px 40px;
-    color:black;
+  font-family: 'Homemade Apple', cursive;
+  padding:0;
+  margin: 0px 40px;
+  color:black;
 }
 .company {
-    color: black;
-    margin: 0 40px;
-    font-size: 0.75em
+  color: black;
+  margin: 0 40px;
+  font-size: 0.75em
 }
 /*************
 ** Contact.html
@@ -130,35 +125,35 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   border-radius: 100%; /* makes the picture a cirle rather than a square */
 }
 #primary-contact {
-    text-align: center;
+  text-align: center;
 }
 #secondary-contact {
-    text-align: center;
+  text-align: center;
 }
 .contact-info {
-    list-style: none;
-    margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 /*************
 ** /blogs/
 **************/
 #blogs {
-    text-align: center;
+  text-align: center;
 }
 #blog-info {
-    text-align: center;
+  text-align: center;
 }
 #page_numbers {
-    margin: 10px 0;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+  margin: 10px 0;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 #rss-subscribe {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .category-list {
-    list-style: none;
-    margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 .post-by-category {
   list-style: none;
@@ -168,19 +163,19 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 ** Blog posts
 **************/
 .rss-subscribe {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 .read-more {
-    font-style: italic;
-    font-size: 0.9em;
+  font-style: italic;
+  font-size: 0.9em;
 }
 
 /*************
 ** Footer
 **************/
 #copyright {
-    text-align: center;
-    font-size: 0.8em;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 @media screen and (max-width: 600px){
@@ -190,39 +185,38 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 
 @media screen and (min-width: 600px) {
-    /* if the screen is larger than 580 we want to show the offerings in 3 columns */
-    .offerings {
-        float: left; /*this allows the list items to be placed left to right rather than up/down*/
-        width: 25%;
-        margin: 4.16666%;
-    }
-    .testimonial-component {
-       width: 40%;
-       margin: 0 5% 20px 5%;
-       vertical-align : middle;
-   }
-   #primary-contact {
-       width: 60%;
-       float: left;
-       text-align: left;
-   }
-   #secondary-contact {
-       width: 30%;
-       float: right;
-       text-align: left;
-   }
-   #primary-contact img {
-       margin-left: 25px;
-   }
-
-   #blogs {
-       width: 70%;
-       float: left;
-       text-align: left;
-   }
-   #blog-info {
-       width: 20%;
-       float: right;
-       text-align: left;
-   }
+  /* if the screen is larger than 580 we want to show the offerings in 3 columns */
+  .offerings {
+    float: left; /*this allows the list items to be placed left to right rather than up/down*/
+    width: 25%;
+    margin: 4.16666%;
+  }
+  .testimonial-component {
+    width: 40%;
+    margin: 0 5% 20px 5%;
+    vertical-align : middle;
+  }
+  #primary-contact {
+    width: 60%;
+    float: left;
+    text-align: left;
+  }
+  #secondary-contact {
+    width: 30%;
+    float: right;
+    text-align: left;
+  }
+  #primary-contact img {
+    margin-left: 25px;
+  }
+  #blogs {
+    width: 70%;
+    float: left;
+    text-align: left;
+  }
+  #blog-info {
+    width: 20%;
+    float: right;
+    text-align: left;
+  }
 }
