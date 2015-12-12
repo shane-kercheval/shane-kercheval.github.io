@@ -148,6 +148,14 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 #blog-info {
     text-align: center;
 }
+#page_numbers {
+    margin: 10px 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#rss-subscribe {
+    margin-top: 20px;
+}
 .category-list {
     list-style: none;
     margin-left: 0;

@@ -20,7 +20,6 @@ include_in_nav: true
                 </li>
             {% endfor %}
         </ul>
-        <span id="page_numbers"></span>
     </section>
 
     <section id="blog-info">
@@ -42,8 +41,8 @@ include_in_nav: true
             <li id="show-all"><a href="" style="font-style:italic">Show All</a></li>
         </ul>
 
-
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <span id="page_numbers"></span>
+        <p id="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </section>
             <!-- didn't need this code, but would like to keep it: http://stackoverflow.com/questions/20945944/jekyll-liquid-output-category-list-with-post-count
         {% for tag in site.categories %}
