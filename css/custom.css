@@ -98,7 +98,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   color: white;
 }
 .testimonial-component {
-  background-color: #fdfdfd;
+  background-color: #FFFFFF;
   max-width: 300px;
   border-radius: 2%;
   padding: 5px 20px;
@@ -176,6 +176,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 #copyright {
   text-align: center;
   font-size: 0.8em;
+  color: #828282;
 }
 
 @media screen and (max-width: 600px){

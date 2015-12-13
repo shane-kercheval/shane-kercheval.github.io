@@ -3,7 +3,7 @@ $(document).ready(function(e){
   var linkColorClicked = "#00ACFF";
 
   function resetLinkColors(){
-    $("#page_numbers .page").css("color", linkColor);//set link color of all pages to default
+    $(".page_numbers .page").css("color", linkColor);//set link color of all pages to default
     //set all the cateory links to default link color, change the clicked color to 'clicked'
     $(".category-list a").css("color",linkColor);
   }
@@ -30,18 +30,6 @@ $(document).ready(function(e){
     }
   });
 
-  function pageClickCallback( event, page, $link ){
-    return function(){
-      event.preventDefault();
-      resetLinkColors();
-      $link.css("color",linkColorClicked);//change link color of the one that was clicked
-      //hide all the list items (i.e. blog articles) that have a 'page' attribute
-      $("li[page]").hide();
-      //show all the list items (i.e. blog articles) for the particular page
-      $("li[page~="+page+"]").show();
-    }
-  }
-
   var posts_per_page = $( "ul[posts_per_page]" ).attr("posts_per_page");
 
   if(typeof posts_per_page != 'undefined'){
@@ -63,14 +51,14 @@ $(document).ready(function(e){
       }
     });
 
-    $page_number_span = $("#page_numbers");//get the page_number span from blog.md
+    $page_number_span = $(".page_numbers");//get the page_number span from blog.md
     $page_number_span.append("Pages: ");
     for (var page = 1; page <= number_of_pages; page++) {
         $link = $('<a class="page" href="">'+ page +' </a>');
         $link.click({param1: page},function(event){
               event.preventDefault();
               resetLinkColors();
-              $(this).css("color",linkColorClicked);//change link color of the one that was clicked
+              $(".page:contains('"+$(this).text()+"')").css("color",linkColorClicked);
               //hide all the list items (i.e. blog articles) that have a 'page' attribute
               $("li[page]").hide();
               //show all the list items (i.e. blog articles) for the particular page
