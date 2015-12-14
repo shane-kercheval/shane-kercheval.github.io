@@ -140,6 +140,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 #blogs {
   text-align: center;
 }
+.post-list li{
+  clear: both;
+}
 #blog-info {
   text-align: center;
 }
@@ -165,9 +168,32 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .rss-subscribe {
   font-size: 0.9em;
 }
-.read-more {
-  font-style: italic;
-  font-size: 0.9em;
+/**********
+** BUTTONS!
+http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
+**********/
+.button {
+  border: 2px solid darkorange;
+	padding: 8px 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  background-color: white;
+  color: white;
+  display: block;
+  clear: left;
+  max-width: 100px;
+  font-size: .9em;
+  margin: 5px auto 20px auto;
+}
+
+.button:hover,
+.button:active {
+	color: white;
+	background: orange;
 }
 
 /*************
@@ -219,5 +245,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
     width: 20%;
     float: right;
     text-align: left;
+  }
+  .button {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
