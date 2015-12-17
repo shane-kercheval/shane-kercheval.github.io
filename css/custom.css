@@ -1,4 +1,4 @@
-body{
+html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers */
   overflow-x:hidden;
 }
 .site-header {/* header.html */
@@ -93,6 +93,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   padding-top: 30px;
   padding-bottom: 30px;
   display: inline-block;
+  overflow-x: hidden;
 }
 .gray h2 {
   color: white;
