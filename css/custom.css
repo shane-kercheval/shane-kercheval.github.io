@@ -169,6 +169,11 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .rss-subscribe {
   font-size: 0.9em;
 }
+.post-template {
+  max-width: 750px;
+  font-size: 1.1em;
+  word-wrap: normal;
+}
 /**********
 ** BUTTONS!
 http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
