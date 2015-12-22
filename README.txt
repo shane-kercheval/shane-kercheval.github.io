@@ -1,0 +1,6 @@
+- author is defaulted in _config.yml for all posts
+- each page should include a 'keywords' front-matter attribute (built in head.html)
+- each post can turn off comments by including "comments: false". (defaulted to true in _config.yml)
+- each post can override author
+- pages that should not be displayed in the menu should remove: include_in_nav: true
+- validate twitter card links: https://cards-dev.twitter.com/validator

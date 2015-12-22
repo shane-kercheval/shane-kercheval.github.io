@@ -3,6 +3,8 @@ title:  "How to Form Hypotheses (and why you should care)"
 date:   2015-10-13 11:54:34 -0800
 categories: hypotheses decisions
 excerpt: We subconsciously use hypotheses everyday. A hypothesis is simply the identification of a particular assumption, and the prediction of the expected outcome. Sound complicated? It isn’t. All types of decisions have implicit assumptions and hypotheses behind them.
+keywords: hypotheses, decisions
+#thumbnail: /
 ---
 **Hypotheses are *not* just for scientists.**
 
