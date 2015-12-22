@@ -56,7 +56,7 @@ How do you test your hypothesis? Unfortunately, that just depends.
 
 **But you can start by determining the smallest useful version of your overall goal.** So, for example, if you think that your marketing plan is going to cost $100K and will result in 100K registrations on your website, then try to design an experiment that is a smaller version of that. How small? The smallest useful version. The version that is the least expensive, quick, but still produces enough data so that you have confidence in the results. So you might spend $10K and verify that it produces >10K registrants, for example.
 
-**The goal, in most cases, is to validate/invalidate your assumptions as quickly and inexpensively as possible.**
+> [{% include icon-twitter.svg %}  The goal is to validate/invalidate your assumptions as quickly and inexpensively as possible.]( https://twitter.com/intent/tweet?text=The%20goal%20is%20to%20validate%2Finvalidate%20your%20assumptions%20as%20quickly%20and%20inexpensively%20as%20possible.%20{{ site.url }}{{ page.url }}){:target="\_blank"}
 
 Get creative. If you have a new product idea, for example, KickStarter or IndieGoGo (crowdfunding platforms) are a great way to, not only see how many people will actually buy your product, but you also have the added benefit of simultaneously raising money which lowers your risk because you don't have to front the cash of building the product.
 
