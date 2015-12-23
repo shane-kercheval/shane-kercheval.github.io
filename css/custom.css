@@ -200,6 +200,13 @@ blockquote {
   padding: 10px 20px;
   margin: 20px 0;
 }
+/*************
+** Footnotes
+**************/
+.footnotes {
+  font-size: 0.8em;
+  margin-top: 50px;
+}
 /**********
 ** BUTTONS!
 http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
@@ -221,13 +228,11 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   font-size: .9em;
   margin: 5px auto 20px auto;
 }
-
 .button:hover,
 .button:active {
 	color: white;
 	background: orange;
 }
-
 /*************
 ** Footer
 **************/
@@ -236,7 +241,6 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   font-size: 0.8em;
   color: #828282;
 }
-
 @media screen and (max-width: 600px){
   .landing_page .site-nav .page-link {
       color: #424242;
