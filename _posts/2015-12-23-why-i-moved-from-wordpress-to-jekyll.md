@@ -41,12 +41,13 @@ Writing in markdown is way better than using the WordPress's editor. Sure there 
 
 I’ve also never really found a WordPress theme that fit exactly what I wanted.
 
-Alternatively, Jekyll gives you a nice, minimal site to start with. Anyone with some basic HTML/CSS/JavaScript skills can expand their website as much as they want.
+Alternatively, Jekyll gives you a nice, minimal site to start with. Anyone with some basic HTML/CSS/JavaScript skills can expand their website as much as they want. Also, Jekyll is very well [documented](http://jekyllrb.com/docs/home/){:target="\_blank"}.
 
-Even with these skills, though, customizing WordPress themes is not intuitive (at least not to me). Some companies with simple static WordPress websites outsource the their development, not because they don’t have the web skills, but because they don’t have WordPress knowledge needed (and/or because it is a pain).
-I’ve spent considerable time trying to figure out how to do various things in WordPress, only to give up.
+Even with these skills, though, customizing WordPress themes is not intuitive. Some companies with simple static WordPress websites outsource the their development, not because they don’t have the web skills, but because they don’t have the WordPress knowledge needed (and/or because it is a pain).
 
-I will say, however, that Jekyll is probably most useful if you learn a little HTML, CSS, JavaScript, which you can do over at TreeHouse, but it isn’t required.
+I’ve spent considerable time trying to figure out how to do simple things in WordPress, only to give up in frustration.
+
+I will say, however, that Jekyll is probably most useful if you learn a little HTML, CSS, JavaScript, which you can do over at TreeHouse. But it isn’t required.
 
 #Jekyll is Lightweight
 
@@ -58,6 +59,6 @@ Also, ever try to move your WordPress site? WordPress uses [databases](https://c
 
 Hosting with GitHub Pages is free and easy and, of course, [TreeHouse has a course](https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages){:target="\_blank"} for getting it set up. GitHub also has [good documentation](https://pages.github.com){:target="\_blank"}.
 
-Updating Jekyll via GitHub Pages requires Git, which isn’t difficult to learn, but isn’t going to be as easy as logging on to WordPress. That said, the pro's far outweigh the cons.
+Updating Jekyll via GitHub Pages requires Git, which isn’t difficult to learn, but isn’t as easy as logging on to WordPress. That said, the pro's far outweigh the cons.
 
 [^1]: I use [Atom](https://atom.io){:target="\_blank"} on OS X. You can preview what the markdown will look like. You can even put it in a pane and see the preview as you type.
