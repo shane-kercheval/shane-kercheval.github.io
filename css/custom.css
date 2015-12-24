@@ -179,7 +179,16 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .post-template h1 {
   margin-top: 30px;
+  font-size: 32px;
 }
+.post-template h2 {
+  font-size: 26px;
+}
+.post-template h3 {
+  font-size: 22px;
+  color: gray;
+}
+
 /*************
 ** The following is to support twitter blockquotes
 **************/

@@ -28,7 +28,7 @@ Step 4: Know the risks of your test.
 Step 5: Learn, Pivot, Repeat
 That's it, and it's really not as complicated as it sounds. Let me break it down for you.
 
-##Step 1: Identify your assumptions.
+#Step 1: Identify your assumptions.
 
 Let's say you want to build an app (and actually make money). What are your assumptions? For starters, you assume that people actually want your app, and that people will pay for your app.
 
@@ -36,7 +36,7 @@ But we have to go a bit deeper than that. It's not enough to know whether or not
 
 You have to go deep. You have to identify all of the assumptions of your assumptions.
 
-##Step 2: State your hypothesis.
+#Step 2: State your hypothesis.
 
 A hypothesis is just an assumption with a predication thrown in.
 
@@ -50,7 +50,7 @@ Let's return to the app example. We want to figure out if people are actually in
 
 *(If you want to get even more technical, you should actually determine the 'Null Hypothesis', and test for statistical significance (if possible), but that's another blog post in itself. Don't let that stop you from running tests though.)*
 
-##Step 3: Test your hypothesis.
+#Step 3: Test your hypothesis.
 
 How do you test your hypothesis? Unfortunately, that just depends.
 
@@ -60,13 +60,13 @@ How do you test your hypothesis? Unfortunately, that just depends.
 
 Get creative. If you have a new product idea, for example, KickStarter or IndieGoGo (crowdfunding platforms) are a great way to, not only see how many people will actually buy your product, but you also have the added benefit of simultaneously raising money which lowers your risk because you don't have to front the cash of building the product.
 
-##Step 4: Know the risks of your test.
+#Step 4: Know the risks of your test.
 
 **Before we even run the tests, we should identify what the test *isn't* testing.**
 
 For example, let's say 100,000 people register their email. Sounds great, right? But that only tells you (in general) how many people are 'interested' in our app. It doesn't tell you how many of those people are actually going to use the app. If it's a free app, you probably have a good idea. If it's a 99 cent app, it's probably less accurate (but to what degree?). If its a $99 app, you still might not have a clue.
 
-##Step 5: Learn, Pivot, Repeat
+#Step 5: Learn, Pivot, Repeat
 
 Now it's time to analyze the data. Does the data align with your expectations? Is there enough data for the experiment to be valid?
 
@@ -78,7 +78,7 @@ Learn from the experiment, try to determine how you can change things (pivot), a
 
 **Continually validate/invalidate assumptions.**
 
-##Takeway
+#Takeway
 
 You don't have to be a scientist to get the benefit of using hypotheses. We use them everyday. By knowing and using the process, however, we can be be more explicit, proactive, and confident about our choices. And we can make data-driven decisions.
 

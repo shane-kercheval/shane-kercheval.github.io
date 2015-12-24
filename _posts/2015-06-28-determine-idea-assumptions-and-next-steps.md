@@ -5,12 +5,12 @@ categories: strategy ideas
 excerpt: Let's say you come up with a great idea; the next big product or service. How do you know what the next steps should be?
 ---
 Let's say you come up with a great idea; the next big product or service. **How do you know what the next steps should be?**
- 
+
 At a high-level, the next steps are to validate (or invalidate) all of the assumptions in the list below. You validate assumptions by running experiments that produce data which causes you to either reject or accept your hypotheses. _Note that even if you do validate your assumptions, the environment is continually changing (whether it is your product, other competitors, and/or people's preferences) and you have to keep validating_.
 
 **The goal in the startup phase is to figure which assumptions should be validated first**, which depends on where your confidence is, what data you have, and which assumptions you can validate the quickest and most inexpensively.
 
-##Assumptions to validate:
+#Assumptions to validate:
 
 *   you know who the customer for your idea is (and the end-user, if they are different people)
 *   the customer/end-user has the problem you think he/she has
