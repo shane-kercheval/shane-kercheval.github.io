@@ -27,7 +27,7 @@ include_in_nav: true
         <h1 class="page-heading">Categories</h1>
         <!--http://stackoverflow.com/questions/20945944/jekyll-liquid-output-category-list-with-post-count-->
         <ul class="category-list">
-            {% assign tags_list = site.categories %}  
+            {% assign tags_list = site.categories | sort %}  
             {% if tags_list.first[0] == null %}
                 {% for tag in tags_list %}
                     <li><a href="">{{ tag | capitalize }} <span>({{ site.tags[tag].size }})</span></a></li>
