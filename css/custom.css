@@ -59,6 +59,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   margin: 0;
   padding: 0;
   text-align: center;
+
 }
 .offering-title {
   font-size: 1.2em;
@@ -69,14 +70,32 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .list-description {
   font-size: 0.9em;
 }
-.first-item {
+.item-1 {
   border-bottom-color: dodgerblue;
 }
-.second-item {
+.item-2 {
   border-bottom-color: red;
 }
-.third-item {
+.item-3 {
   border-bottom-color: green;
+}
+.item-4 {
+  border-bottom-color: #F19C37;
+}
+.item-5 {
+  border-bottom-color: #50F371;
+}
+.item-6 {
+  border-bottom-color: #5718BE;
+}
+.item-7 {
+  border-bottom-color: #BE18A5;
+}
+.item-8 {
+  border-bottom-color: #19FFF0;
+}
+.item-9 {
+  border-bottom-color: #FFD000;
 }
 /*************
 ** Testimonials Section
@@ -117,6 +136,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   color: black;
   margin: 0 40px;
   font-size: 0.75em
+}
+/*************
+** Skills Section
+**************/
+.skills {
+  padding: 30px 0;
 }
 /*************
 ** Contact.html
@@ -263,7 +288,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 }
 
 @media screen and (min-width: 600px) {
-  /* if the screen is larger than 580 we want to show the offerings in 3 columns */
+  /* if the screen is larger than 600 we want to show the offerings in 3 columns */
   .offerings {
     float: left; /*this allows the list items to be placed left to right rather than up/down*/
     width: 25%;
@@ -271,8 +296,11 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   }
   .testimonial-component {
     width: 40%;
-    margin: 0 5% 20px 5%;
+    margin: 0 1% 20px 1%;
     vertical-align : middle;
+  }
+  .boxlist li:nth-child(3n+1) { /* we want to do the following the every 3rd item in the list starting with the fouth (i.e. +1)*/
+    clear: left;
   }
   #primary-contact {
     width: 60%;

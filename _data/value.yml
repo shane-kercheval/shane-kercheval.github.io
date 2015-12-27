@@ -1,0 +1,47 @@
+intro:
+    header: Most Startups Fail.
+    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming. I help entrepreneurs build a strategy that decreases risk and uncovers opportunities.
+
+offerings:
+  - name: Ongoing Consulting
+    description: This package is for first-time founders who want continual expertise and feedback while growing their business. You will get ongoing strategic advice and insight from someone who will become part of your team. Together, we'll move faster and overcome challenges.
+
+  - name: Strategy Formation
+    description: This package is for first-time founders who want to figure out the best way to move forward. Together, we'll come up with a strategy that explains how to move forward and overcome the inherent challenges, and we'll develop a framework for decision making that reduces risk.
+
+  - name: Financial Forecasting
+    description: This package is for first-time founders who need to develop a financial forecast model for new business ideas. A lot of startups fail because they simply don't forecast correctly. Together, we'll come up with a realistic forecast model that allows you to plan for success.
+
+testimonials:
+  - name: JC Conrad
+    position: Founder / CEO
+    company: GoDirect Foods
+    testimonial: I have been working with Shane Kercheval for about a year now. Shane understands business, strategy and what it’s going to take to make a business successful. He will look at every angle and will come back to you and tell you things that you don’t want to hear; he’s going to tell you his honest opinion on what needs to be enhanced, changed, or deleted from your business plan. Now as I look back almost a year later, the value that I received from Shane is worth way more then I think he even realizes. Thanks Shane for helping GoDirect Foods start on the right track.
+
+skills:
+  - name: Growth
+    description: target market & sales funnel optimization; growth tactic identification
+
+  - name: Site Optimization
+    description: determine website goals; optimize conversion rate & user experience
+
+  - name: Analytics
+    description: determine data collection methods, analyze data, make data-driven decisions
+
+  - name: Strategy
+    description: identify options, assumptions, risks, and appropriate next steps
+
+  - name: SEO
+    description: optimize search engine rank w/ keyword research and on- and off-page SEO tactics
+
+  - name: Forecasting
+    description: develop models to determine break-even point, cash-flow and profit expectations
+
+  - name: Execution
+    description: workflow and task management; organization; execution & focus optimization
+
+  - name: Social Media
+    description: determine social media strategy & techniques; analyze data
+
+  - name: HTML, CSS, JavaScript
+    description: static website development; basic layout design and user-interaction
