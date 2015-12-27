@@ -7,6 +7,7 @@ description: > # this means to ignore newlines
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
+logo: "/img/logo.png"
 twitter_username: shanekercheval
 posts_per_page: 5
 
