@@ -5,6 +5,7 @@ categories: failing
 excerpt: Companies fail for all sorts of reasons. Here are the top.
 keywords: failing
 #thumbnail: /
+permalink: /blog/:title
 ---
 Why do some businesses fail? Here is my completely incomplete and anecdotal list:
 

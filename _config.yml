@@ -22,4 +22,3 @@ defaults:
       layout: post
       author: Shane Kercheval
       comments: true
-      permalink: /blog/:title/
