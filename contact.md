@@ -9,10 +9,12 @@ include_in_nav: true
 <section id="primary-contact"> <!-- sections break up a page into logical groupings of information -->
   <h3>General Information</h3>
   <img src="{{ site.url }}{{ siteInfo.image }}" alt="{{ siteInfo.image_alt }}" class="profile-photo">
-  <p>Hey there! My name is Shane Kercheval</p>
-  <p>My goal and passion is to help individuals and companies make better and more informed decisions.</p>
-  <p>I do this by providing insight into the anatomy of strategy, business models, and testing assumptions.</p>
-  <p>My concentration is on startup companies, but any team that wants to grow/evolve can benefit from outside strategic consulting.</p>
+
+  {% assign sentences = site.data.contacts['shanekercheval'].bio | split:'.' %}
+  {% for sentence in sentences %}
+    <p>{{ sentence }}.</p>
+  {% endfor %}
+
 </section>
 <section id="secondary-contact">
   <h3>Contact Details</h3>

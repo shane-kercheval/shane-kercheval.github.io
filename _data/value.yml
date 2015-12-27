@@ -4,13 +4,13 @@ intro:
 
 offerings:
   - name: Ongoing Consulting
-    description: This package is for first-time founders who want continual expertise and feedback while growing their business. You will get ongoing strategic advice and insight from someone who will become part of your team. Together, we'll move faster and overcome challenges.
+    description: For first-time founders who want continual expertise and feedback while growing their business. You will get ongoing strategic advice and insight from someone who will become part of your team. Together, we'll move faster and overcome challenges.
 
   - name: Strategy Formation
-    description: This package is for first-time founders who want to figure out the best way to move forward. Together, we'll come up with a strategy that explains how to move forward and overcome the inherent challenges, and we'll develop a framework for decision making that reduces risk.
+    description: For first-time founders who want to figure out the best way to move forward. Together, we'll come up with a strategy that explains how to move forward and overcome the inherent challenges, and we'll develop a framework for decision making that reduces risk.
 
   - name: Financial Forecasting
-    description: This package is for first-time founders who need to develop a financial forecast model for new business ideas. A lot of startups fail because they simply don't forecast correctly. Together, we'll come up with a realistic forecast model that allows you to plan for success.
+    description: For first-time founders who need to develop a financial forecast model for new business ideas. A lot of startups fail because they simply don't forecast correctly. Together, we'll come up with a realistic forecast model that allows you to plan for success.
 
 testimonials:
   - name: JC Conrad
@@ -32,7 +32,7 @@ skills:
     description: identify options, assumptions, risks, and appropriate next steps
 
   - name: SEO
-    description: optimize search engine rank w/ keyword research and on- and off-page SEO tactics
+    description: optimize search engine rank with keyword research and on- and off-page SEO tactics
 
   - name: Forecasting
     description: develop models to determine break-even point, cash-flow and profit expectations
@@ -41,7 +41,7 @@ skills:
     description: workflow and task management; organization; execution & focus optimization
 
   - name: Social Media
-    description: determine social media strategy & techniques; analyze data
+    description: determine social media strategy and techniques; analyze data
 
   - name: HTML, CSS, JavaScript
-    description: static website development; basic layout design and user-interaction
+    description: static website development; basic layout, design, and user-interaction
