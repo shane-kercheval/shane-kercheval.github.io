@@ -10,7 +10,6 @@ logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
-permalink: /blog/:title/
 
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
@@ -22,3 +21,4 @@ defaults:
       layout: post
       author: Shane Kercheval
       comments: true
+      permalink: /blog/:title/
