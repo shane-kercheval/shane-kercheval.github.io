@@ -10,7 +10,6 @@ logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
-permalink: /:title
 
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
