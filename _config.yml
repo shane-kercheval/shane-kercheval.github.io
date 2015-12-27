@@ -1,15 +1,12 @@
 # Site settings
 title: Startup Consulting
 owner: Shane Kercheval
-email: shane.kercheval@yahoo.com
 description: > # this means to ignore newlines
     Have an idea? I help first-time entrepreneurs strategize and launch.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
 logo: "/img/logo.png"
-twitter_username: shanekercheval
-posts_per_page: 5
 
 # Build settings
 markdown: kramdown
@@ -25,3 +22,4 @@ defaults:
       layout: post
       author: Shane Kercheval
       comments: true
+      permalink: /blog/:title

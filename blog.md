@@ -8,7 +8,7 @@ include_in_nav: true
 
     <section id="blogs">
         <h1 class="page-heading">Posts</h1>   
-        <ul class="post-list" posts_per_page="{{ site.posts_per_page }}">
+        <ul class="post-list" posts_per_page="{{ site.data.blogs.posts_per_page }}">
             {% for post in site.posts %}
                 <li categories="{{ post.categories | join: ' ' }}" index_number="{{ forloop.index }}">
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>

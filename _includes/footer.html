@@ -1,25 +1,27 @@
 <footer class="site-footer">
 
+{% assign siteInfo = site.data.contacts['site'] %}
+
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ siteInfo.email }}">{{ siteInfo.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if siteInfo.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username=siteInfo.github_username %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if siteInfo.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=siteInfo.twitter_username %}
           </li>
           {% endif %}
         </ul>
@@ -29,7 +31,7 @@
         <p>{{ site.description }}</p>
       </div>
     </div>
-    <p id='copyright'>&copy; 2014-<script>document.write(new Date().getFullYear())</script> Shane Kercheval.</p>
+    <p id='copyright'>&copy; 2014-<script>document.write(new Date().getFullYear())</script> {{ site.owner }}. | <a href="{{ site.url }}/privacy-policy/">Privacy Policy</a></p>
   </div>
 
 </footer>
