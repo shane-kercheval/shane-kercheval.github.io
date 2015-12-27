@@ -1,8 +1,9 @@
 ---
 title:  "Kanban vs. Scrum - Pull vs. Push"
 date:   2014-03-03 08:25:31+0000
-categories: agile kanban scrum
+categories: lean execution
 excerpt: What makes a particular software development methodology a push or pull system is simply how the development team handles the inventory/scheduling of stories.
+keywords: agile, kanban, scrum
 ---
 
 Scrum seems to be the go-to flavor of [agile software development](http://en.wikipedia.org/wiki/Agile_software_development), but there has been a lot of talk about Kanban lately. So what are the key differences between the two methodologies, and why does it matter? I'll attempt to answer those questions, not in terms of their exact implementations but, rather, in terms of the characteristics of pull and push systems and the implications on both flavors of agile development.

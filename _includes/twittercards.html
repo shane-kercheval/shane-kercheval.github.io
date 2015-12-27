@@ -1,7 +1,9 @@
 <!-- http://danyalzia.com/2015/06/30/adding-twitter-cards-to-jekyll/ -->
+{% assign siteInfo = site.data.contacts['site'] %}
+
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@ShaneKercheval">
-<meta name="twitter:creator" content="@ShaneKercheval">
+<meta name="twitter:site" content="@{{ siteInfo.twitter_username }}">
+<meta name="twitter:creator" content="@{{ siteInfo.twitter_username }}">
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
