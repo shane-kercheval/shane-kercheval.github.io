@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function(e){
   var linkColor = "darkorange";
   var linkColorClicked = "#00ACFF";
@@ -51,10 +52,10 @@ $(document).ready(function(e){
       }
     });
 
-    $page_number_span = $(".page_numbers");//get the page_number span from blog.md
+    var $page_number_span = $(".page_numbers");//get the page_number span from blog.md
     $page_number_span.append("Pages: ");
     for (var page = 1; page <= number_of_pages; page++) {
-        $link = $('<a class="page" href="">'+ page +' </a>');
+        var $link = $('<a class="page" href="">'+ page +' </a>');
         $link.click({param1: page},function(event){
               event.preventDefault();
               resetLinkColors();
