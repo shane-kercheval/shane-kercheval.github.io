@@ -150,10 +150,10 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   max-width: 200px;
   border-radius: 100%; /* makes the picture a cirle rather than a square */
 }
-#primary-contact {
+#primary-column {
   text-align: center;
 }
-#secondary-contact {
+#secondary-column {
   text-align: center;
 }
 .contact-info {
@@ -241,6 +241,122 @@ blockquote {
   margin: 20px 0;
 }
 /*************
+** Resume
+**************/
+.resume h1 {
+  text-align: center;
+  border-bottom: 3px solid orange;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+#resume_contact_info {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 0.9em;
+}
+.resume h2 {
+  clear: both;
+  margin: 10px 0;
+  border-bottom: 2px dotted orange;
+  width: 95%;
+}
+.resume_job_item{
+  margin-bottom: 15px;
+}
+.resume_skill {
+  float: left;
+  font-size: .9em;
+  width: calc(100% - 113px);//this is the width of .skill_level plus a little added padding
+}
+.resume ul {
+  margin: 0 0 0 20px;
+}
+.resume_education_item {
+  padding-bottom: 10px;
+}
+.resume_education_name {
+  font-weight: bold;
+}
+.resume_education_source {
+  text-transform: uppercase;
+  white-space:nowrap;
+}
+.resume_year {
+  font-size: .9em;
+}
+.resume_company {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+.resume_position {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.resume_education_item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  clear: both;
+  margin-top: 5px;
+  font-size: .9em;
+}
+.resume_skill_level {
+  float: right;
+  width: 110px;
+}
+.resume_skill_group {
+  clear: both;
+}
+.resume_skill_level .circle {
+  margin: 0 0 0 -2px;
+}
+@media screen and (min-width: 600px) {
+  .resume #primary-column {
+    border-right: 2px dotted orange;
+    padding-right: 5px;
+  }
+}
+/*for printing resume */
+@media print {
+  .resume {
+    font-size: .7em;
+  }
+  .resume #primary-column {
+    border-right: 2px dotted orange;
+    padding-right: 5px;
+  }
+  .resume .wrapper {
+    max-width: 675px;
+  }
+  .resume h1 {
+    padding: 5px;
+    margin-top: -5px;
+  }
+  .resume ul {
+    margin: 0 0 0 10px;
+  }
+  .resume_education_item {
+    padding-bottom: 5px;
+  }
+  .resume_job_item{
+    margin-bottom: 10px;
+  }
+  #primary-column {
+    width: 65%;
+    float: left;
+    text-align: left;
+  }
+  #secondary-column {
+    width: 32%;
+    float: right;
+    text-align: left;
+  }
+}
+/*************
 ** Footnotes
 **************/
 .footnotes {
@@ -283,7 +399,10 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 }
 @media screen and (max-width: 600px){
   .landing_page .site-nav .page-link {
-      color: #424242;
+    color: #424242;
+  }
+  .site-footer{
+    text-align: center;
   }
 }
 
@@ -302,17 +421,17 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   .boxlist li:nth-child(3n+1) { /* we want to do the following the every 3rd item in the list starting with the fouth (i.e. +1)*/
     clear: left;
   }
-  #primary-contact {
-    width: 60%;
+  #primary-column {
+    width: 65%;
     float: left;
     text-align: left;
   }
-  #secondary-contact {
-    width: 30%;
+  #secondary-column {
+    width: 32%;
     float: right;
     text-align: left;
   }
-  #primary-contact img {
+  #primary-column img {
     margin-left: 25px;
   }
   #blogs {

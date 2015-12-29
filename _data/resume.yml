@@ -1,0 +1,139 @@
+name: Shane Kercheval
+credentials: ", MBA"
+
+summary_name: Professional Profile
+experience_name: Experience
+education_name: Education
+skills_name: Professional Skills
+tools_name: Tools
+
+contact_info:
+  phone: 646.543.9259
+  email: shane.kercheval@yahoo.com
+  linkedIn: http://linkedin.com/in/ShaneKercheval
+  website: http://shanekercheval.me
+  blog: http://shanekercheval.me/blog
+
+summaries:
+  - summary: Dedicated to continual improvement/education.
+  - summary: Extremely high degree of integrity and ethical standards.
+  - summary: Demonstrates immense focus, discipline, and meticulousness.
+  - summary: Demonstrates excellent critical thinking skills; detail oriented.
+  - summary: Excellent communication skills, including both verbal and written; high degree of emotional intelligence.
+  - summary: Experience in highly technical positions.
+  - summary: Experience in very diverse fields
+  - summary: Develops/manages highly successful onshore and offshore teams
+
+jobs:
+  - company: GoDirect Foods
+    website: http://godirectfoods.com
+    position: Advisor / Strategy Consultant
+    years: 2015 - present
+    responsibilities:
+      - desc: Identify key business activities and strategic options; helped to plan and provide insight into execution of ideas and projects
+      - desc: Provide guidance into scientific method of validating hypotheses
+      - desc: Set up analytics system in order to make data-based decisions
+      - desc: Led crowdfunding campaign, raised $10,000
+      - desc: Created marketing plan and provided ongoing marketing insights
+      - desc: Led team to implement collaboration/communication methods
+
+  - company: IntelliTect
+    website: http://IntelliTect.com
+    position: Strategy Analyst; Ideation Lead
+    years: 2013 - present
+    responsibilities:
+      - desc: Led ‘ideation’ initiative and developed processes for (business) idea viability analysis and idea development
+      - desc: Delivered ‘business analysis’ & financial forecasting consultations and reports for clients; very positive feedback
+      - desc: Led various initiatives for process improvement and best practices across organization (sales, company task management)
+      - desc: Led marketing team through strategy session and delivered marketing plan
+      - desc: Put in place system of collaboration/communication to execution marketing (and other) activities.
+      - desc: Highly involved in legal activities including reviewing/updating contracts, negotiation of contracts with clients
+      - desc: Assisted in the development of various marketing and sales content
+
+
+  - company: Itron
+    website: http://Itron.com
+    position: Software Engineer
+    years: 2008 - 2013
+    responsibilities:
+      - desc: Led multiple projects to a successful completion.
+      - desc: Received multiple documented acknowledgements for outstanding dedication and achievement.
+      - desc: Worked onsite at several customer locations to successfully troubleshoot, resolve problems, and provide support.
+
+education:
+  - name: Masters - Business Admin.
+    source: Eastern Wash. University
+    year_completed: 2013
+    points:
+      - point: Graduated with Honors; GPA 3.99
+      - point: Concentration in Finance
+
+  - name: B.S. - Computer Science
+    source: Eastern Wash. University
+    year_completed: 2008
+    points:
+      - point: Summa Cum Laude; GPA 3.87
+      - point: Minor in Physics and Mathematics
+      - point: Recognition of Achievement in C.S.
+
+skills:
+  - skill: Critical Thinking
+    skill_level: 6
+  - skill: Strategy / Analysis
+    skill_level: 6
+  - skill: Data-driven Decisions
+    skill_level: 5
+  - skill: Finance
+    skill_level: 5
+  - skill: Analytics & Statistics
+    skill_level: 5
+  - skill: Project Management
+    skill_level: 5
+  - skill: Agile Methodologies
+    skill_level: 5
+  - skill: Ideation
+    skill_level: 6
+  - skill: Customer Interaction
+    skill_level: 6
+  - skill: Growth & Marketing
+    skill_level: 5
+  - skill: Sales
+    skill_level: 3
+  - skill: Legal
+    skill_level: 3
+  - skill: Psychology / Behavior
+    skill_level: 4
+  - skill: Research
+    skill_level: 5
+  - skill: Communication
+    skill_level: 6
+  - skill: Leadership
+    skill_level: 5
+  - skill: Adaptability
+    skill_level: 6
+  - skill: Organization
+    skill_level: 7
+
+tools:
+  - tool: Google Analytics
+    skill_level: 5
+  - tool: Google Tag Manager
+    skill_level: 5
+  - tool: MailChimp
+    skill_level: 5
+  - tool: Survey Monkey
+    skill_level: 5
+  - tool: MiniTab Statistics
+    skill_level: 4
+  - tool: WordPress
+    skill_level: 3
+  - tool: Jekyll
+    skill_level: 4
+  - tool: HootSuite
+    skill_level: 5
+  - tool: Excel
+    skill_level: 5
+  - tool: IFTTT / Zapier
+    skill_level: 6
+  - tool: Ability to research and find tools
+    skill_level: 6

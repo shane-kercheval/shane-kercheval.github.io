@@ -6,7 +6,7 @@ include_in_nav: true
 ---
 {% assign siteInfo = site.data.contacts['site'] %}
 
-<section id="primary-contact"> <!-- sections break up a page into logical groupings of information -->
+<section id="primary-column"> <!-- sections break up a page into logical groupings of information -->
   <h3>General Information</h3>
   <img src="{{ site.url }}{{ siteInfo.image }}" alt="{{ siteInfo.image_alt }}" class="profile-photo">
 
@@ -16,7 +16,7 @@ include_in_nav: true
   {% endfor %}
 
 </section>
-<section id="secondary-contact">
+<section id="secondary-column">
   <h3>Contact Details</h3>
   <ul class="contact-info">
   <!--<li class="phone"><a href="tel:646.543.9259">646.543.9259</a></li>-->
@@ -29,5 +29,5 @@ include_in_nav: true
   (or use the message box below!)
   </li>
   </ul>
-  <p>Click <a href="https://www.dropbox.com/s/3t6jofbr9babvek/Resume%20-%20Shane%20Kercheval.pdf?dl=0" target="_blank">here</a> for my resume.</p>
+  <p>Click <a href="{{ site.url }}/resume/" target="_blank">here</a> for my resume.</p>
 </section>
