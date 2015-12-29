@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
 logo: "/img/logo.png"
+large_logo: "/img/large_logo.png"
 
 # Build settings
 markdown: kramdown
