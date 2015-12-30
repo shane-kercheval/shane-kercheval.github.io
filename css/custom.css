@@ -146,6 +146,10 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 /*************
 ** Contact.html
 **************/
+#contact_page {
+  margin-bottom: 60px;
+  overflow: hidden;
+}
 .profile-photo {
   max-width: 200px;
   border-radius: 100%; /* makes the picture a cirle rather than a square */
@@ -160,6 +164,76 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   list-style: none;
   margin-left: 0;
 }
+/*************
+** Contact Form
+**************/
+#contact-form-line {
+  height:2px;
+  border-width:0;
+  background-color: #D1D1D1;
+  width: 60%;
+  margin: 40px auto 40px auto;
+}
+.contact-form {
+  clear: both;
+  margin-bottom: 50px;
+}
+.contact-form h2 {
+  text-align: center;
+}
+.contact-form-item {
+  width: calc(100% - 22px);
+  margin: 15px auto;
+  padding: 10px 10px;
+  display: block;
+  font-size: 1em;
+  border: 1px solid #D1D1D1;
+ }
+.contact-form input {
+  border: 1px solid #D1D1D1;
+  font-family: inherit; //needed for firefox
+  font-size: inherit; //needed for firefox
+}
+.contact-form textarea{
+  resize: vertical;
+  font-family: inherit; //needed for firefox
+  font-size: inherit; //needed for firefox
+}
+.contact-form button{
+  margin: 10px auto;
+  padding: 20px 0;
+  font-size: 1em;
+  width: 100%;
+}
+#overlay button{
+  margin: 30px auto;
+  padding: 20px 0;
+  font-size: 1em;
+  width: 100%;
+}
+#contact-form-container{
+  position: relative; //this is required so that the overlay gets positioned correctly, not sure why
+}
+#submit-success {
+  display: none;
+}
+#submit-errors {
+  display: none;
+}
+#overlay {
+    background: rgba(255,255,255,1);/*0,0,0 = black, 0.7 is opacity*/
+    width: 100%;
+    height: calc(100% - 50px);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+#overlay p {
+  font-size: 1.5em;
+}
+
 /*************
 ** /blogs/
 **************/
@@ -190,6 +264,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .post-by-category {
   list-style: none;
   margin-left: 0;
+}
+#blogs .button {
+  max-width: 100px;
 }
 /*************
 ** Blog posts
@@ -377,10 +454,9 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
   background-color: white;
-  color: white;
+  color: darkorange;
   display: block;
   clear: left;
-  max-width: 100px;
   font-size: .9em;
   margin: 5px auto 20px auto;
 }

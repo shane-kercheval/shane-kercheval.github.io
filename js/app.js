@@ -1,5 +1,16 @@
+---
+
+---
+
+{% assign siteInfo = site.data.contacts['site'] %}
+{% assign form = site.data.contact-form %}
+
 "use strict";
 $(document).ready(function(e){
+
+/********************
+**  /blogs
+*********************/
   var linkColor = "darkorange";
   var linkColorClicked = "#00ACFF";
 
@@ -70,6 +81,79 @@ $(document).ready(function(e){
           $link.css("color",linkColorClicked); //default the first page link to 'pressed'
         }
         $page_number_span.append($link);//add the page to the span
+    }
+  }
+
+/********************
+**  contact-form.html
+*********************/
+  if($('#contact-form-container').length >0 ){//ONLY EXECUTE THIS CODE ON PAGES THAT THE CONCACT FORM EXISTS
+    // 1) remove action & method attributes from form (that way, if javascript is disabled, they will still be able to send message via form post)
+    $(".contact-form").removeAttr("action");
+    $(".contact-form").removeAttr("method");
+
+    //dynamically add overlay (assume JavaScript is enabled)
+    var $overlay = $('<div id="overlay"><p>Not Set.. Error</p><button class="button contact-form-item">Send Another Message</button></div>');
+    $('#contact-form-container').append($overlay);
+
+    // 2) when the form is submitted, then check the validity of the form, and if it valid, send the data and display the appropriate message
+    $('.contact-form').submit(function(event){
+      if(this.checkValidity())
+      {
+        event.preventDefault();
+        var replyToEmail = $(".contact-form").find("input[name='_replyto']").val()
+
+        $.ajax({
+          url: "//formspree.ioaaa/{{ form.email }}",
+          method: "POST",
+          data: {
+            _replyto: replyToEmail,
+            message: $(".contact-form").find("textarea[name='message']").val()
+          },
+          dataType: "json",
+          success: function() {
+            $("#overlay p").text("Your message was sent. I will reply to '"+replyToEmail+"' as soon as I can.");
+            $overlay.fadeIn();//these needs to go in success? or success/error needs to set message;
+          },
+          error: function() {
+            $("#overlay p").text("There was an error sending the message. Please try again, or reach out using twitter (@{{ siteInfo.twitter_username }}) or email me directly ({{ form.email }}). Sorry for the inconvenience!");
+            $overlay.fadeIn();//these needs to go in success? or success/error needs to set message;
+          }
+        });
+      }
+    });
+
+    //allow the user to get back to the form and resubmit
+    $("#overlay button").click(function(event){
+        $("#overlay").fadeOut();
+    });
+
+    /*Need this because safari for some brilliant reason doesn't support html form validation
+        http://stackoverflow.com/questions/16251987/html5-validation-with-opera-and-safari */
+    var loadScript = function(src, loadCallback) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = src;
+      s.onload = loadCallback;
+      document.body.appendChild(s);
+    };
+
+    // http://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+
+    if (isSafari || isOpera) {
+
+      loadScript('//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.10/dev/polyfiller.js', function () {
+        webshims.setOptions('forms', {
+          overrideMessages: true,
+          replaceValidationUI: false
+        });
+        webshims.setOptions({
+          waitReady: true
+        });
+        webshims.polyfill();
+      });
     }
   }
 });

@@ -1,0 +1,11 @@
+<!-- http://formspree.io/ -->
+{% assign form = site.data.contact-form %}
+<div id="contact-form-container">
+<hr id="contact-form-line">
+<form class="contact-form" action="//formspree.io/{{ form.email }}" method="POST">
+  <h2>{{ form.header }}</h2>
+  <input class="contact-form-item" type="email" value="" name="_replyto" placeholder="{{ form.email_placeholder }}" required>
+  <textarea class="contact-form-item" type="text" value="" name="message" placeholder="{{ form.textarea_placeholder }}" required></textarea>
+  <button class="button contact-form-item" type="submit">{{ form.button_text }}</button>
+</form>
+</div>
