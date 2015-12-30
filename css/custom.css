@@ -174,11 +174,11 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   width: 60%;
   margin: 40px auto 40px auto;
 }
-.contact-form {
+#contact-form {
   clear: both;
   margin-bottom: 50px;
 }
-.contact-form h2 {
+#contact-form h2 {
   text-align: center;
 }
 .contact-form-item {
@@ -189,17 +189,17 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-size: 1em;
   border: 1px solid #D1D1D1;
  }
-.contact-form input {
+#contact-form input {
   border: 1px solid #D1D1D1;
   font-family: inherit; //needed for firefox
   font-size: inherit; //needed for firefox
 }
-.contact-form textarea{
+#contact-form textarea{
   resize: vertical;
   font-family: inherit; //needed for firefox
   font-size: inherit; //needed for firefox
 }
-.contact-form button{
+#contact-form button{
   margin: 10px auto;
   padding: 20px 0;
   font-size: 1em;

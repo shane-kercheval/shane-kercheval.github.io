@@ -89,26 +89,26 @@ $(document).ready(function(e){
 *********************/
   if($('#contact-form-container').length >0 ){//ONLY EXECUTE THIS CODE ON PAGES THAT THE CONCACT FORM EXISTS
     // 1) remove action & method attributes from form (that way, if javascript is disabled, they will still be able to send message via form post)
-    $(".contact-form").removeAttr("action");
-    $(".contact-form").removeAttr("method");
+    $("#contact-form").removeAttr("action");
+    $("#contact-form").removeAttr("method");
 
     //dynamically add overlay (assume JavaScript is enabled)
     var $overlay = $('<div id="overlay"><p>Not Set.. Error</p><button class="button contact-form-item">Send Another Message</button></div>');
     $('#contact-form-container').append($overlay);
 
     // 2) when the form is submitted, then check the validity of the form, and if it valid, send the data and display the appropriate message
-    $('.contact-form').submit(function(event){
+    $('#contact-form').submit(function(event){
       if(this.checkValidity())
       {
         event.preventDefault();
-        var replyToEmail = $(".contact-form").find("input[name='_replyto']").val()
+        var replyToEmail = $("#contact-form").find("input[name='_replyto']").val()
 
         $.ajax({
           url: "//formspree.io/{{ form.email }}",
           method: "POST",
           data: {
             _replyto: replyToEmail,
-            message: $(".contact-form").find("textarea[name='message']").val()
+            message: $("#contact-form").find("textarea[name='message']").val()
           },
           dataType: "json",
           success: function() {
