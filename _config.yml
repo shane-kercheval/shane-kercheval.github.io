@@ -12,6 +12,7 @@ large_logo: "/img/large_logo.png"
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
+google_tag_manager_id: GTM-5CNNSG
 
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
