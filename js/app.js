@@ -104,7 +104,7 @@ $(document).ready(function(e){
         var replyToEmail = $(".contact-form").find("input[name='_replyto']").val()
 
         $.ajax({
-          url: "//formspree.ioaaa/{{ form.email }}",
+          url: "//formspree.io/{{ form.email }}",
           method: "POST",
           data: {
             _replyto: replyToEmail,
