@@ -1,0 +1,8 @@
+<!--
+https://developers.facebook.com/tools/debug/
+-->
+<meta property="og:image" content="{% if page.thumbnail %}{{ site.url }}{{ page.thumbnail }}{% else %}{{ site.url }}{{ site.large_logo }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }} | {{ site.owner }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:type" content="website" />

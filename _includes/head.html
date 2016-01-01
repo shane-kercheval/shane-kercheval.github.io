@@ -14,7 +14,8 @@
   <meta name="author" content="{{ page.author }}">
   {% endif %}
   <meta name="Robots" content="all">
-  <meta property="og:image" content="{{ site.url }}{{ site.large_logo }}" />
+
+  {% include open-graph-tags.html %}
   {% include twittercards.html %}
 
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600|Homemade+Apple' rel='stylesheet' type='text/css'>
