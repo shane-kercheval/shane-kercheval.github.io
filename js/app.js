@@ -16,7 +16,7 @@ $(document).ready(function(e){
 
   function resetLinkColors(){
     $(".page_numbers .page").css("color", linkColor);//set link color of all pages to default
-    //set all the cateory links to default link color, change the clicked color to 'clicked'
+    //set all the category links to default link color, change the clicked color to 'clicked'
     $(".category-list a").css("color",linkColor);
   }
 
@@ -86,7 +86,30 @@ $(document).ready(function(e){
 
 /********************
 **  contact-form.html
+NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook into this and I can't track form submission events via GTM. I'll have to add custom code
 *********************/
+  function stringStartsWith (string, prefix) {
+    return string.slice(0, prefix.length) == prefix;
+  }
+  function gtmPush(category, action, label, value) {
+    {% if site.google_tag_manager_id and jekyll.environment != "development" %} //only make the call if configured in jekyll configuration file, otherwise the final generated site/code won't contain the code
+
+      if(stringStartsWith(window.location.href, 'http://127.0.0.1:4000/')){
+        category = "(TEST) " + category;
+        action = "(TEST) " + action;
+        label = "(TEST) " + label;
+      }
+
+      dataLayer.push({
+        'event' : 'GAEvent',
+        'eventCategory' : category,
+        'eventAction' : action,
+        'eventLabel' : label,
+        'eventValue' : value
+      });
+    {% endif %}
+  }
+
   if($('#contact-form-container').length >0 ){//ONLY EXECUTE THIS CODE ON PAGES THAT THE CONCACT FORM EXISTS
     // 1) remove action & method attributes from form (that way, if javascript is disabled, they will still be able to send message via form post)
     $("#contact-form").removeAttr("action");
@@ -114,10 +137,12 @@ $(document).ready(function(e){
           success: function() {
             $("#overlay p").text("Your message was sent. I will reply to '"+replyToEmail+"' as soon as I can.");
             $overlay.fadeIn();//these needs to go in success? or success/error needs to set message;
+            gtmPush('contact-form', 'submit_success', window.location.href, undefined);
           },
           error: function() {
             $("#overlay p").text("There was an error sending the message. Please try again, or reach out using twitter (@{{ siteInfo.twitter_username }}) or email me directly ({{ form.email }}). Sorry for the inconvenience!");
             $overlay.fadeIn();//these needs to go in success? or success/error needs to set message;
+            gtmPush('contact-form', 'submit_failure', window.location.href, undefined);
           }
         });
       }
