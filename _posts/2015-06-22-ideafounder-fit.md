@@ -3,6 +3,7 @@ title:  "Idea/Founder Fit"
 date:   2015-06-22 06:53:06+0000
 categories: strategy ideas decisions
 excerpt: Ideas are easy. Anyone can come up with an idea. But not everyone can execute.
+thumbnail: /img/blog/idea_founder_fit.png
 ---
 
 ![idea founder fit]({{ site.url }}/img/blog/idea_founder_fit.png)
