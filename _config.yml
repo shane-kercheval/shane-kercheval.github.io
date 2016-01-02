@@ -8,6 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
 logo: "/img/logo.png"
 large_logo: "/img/large_logo.png"
+large_logo_width: 587
+large_logo_height: 266
 
 # Build settings
 markdown: kramdown

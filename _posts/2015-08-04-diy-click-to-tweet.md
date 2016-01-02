@@ -3,6 +3,7 @@ title:  "DIY Click to Tweet"
 date:   2015-08-04 18:06:49+0000
 categories: social_media hacks
 excerpt: Want people to tweet your message simply by clicking a link? Don't want to sign up for a service? DIY and follow these 3 steps.
+keywords: twitter, tweet, DIY
 ---
 
 Want people to tweet your message simply by clicking a link? Don't want to sign up for a service? DIY and follow these 3 steps.

@@ -4,7 +4,7 @@ date:   2015-12-27 06:00:00 -0800
 categories: failing strategy
 excerpt: Companies fail for all sorts of reasons. Here are the top.
 keywords: failing, strategy
-#thumbnail: /
+#thumbail?
 ---
 Why do some businesses fail? Here is my completely incomplete and anecdotal list:
 

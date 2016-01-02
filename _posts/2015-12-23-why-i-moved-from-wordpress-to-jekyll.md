@@ -4,7 +4,6 @@ date:   2015-12-22 12:00:00 -0800
 categories: jekyll blogging
 excerpt: There are pros and cons to both tools, but I have no regrets in my move to Jekyll.
 keywords: jekyll, blogging, wordpress
-#thumbnail: /
 ---
 #tl;dr
 

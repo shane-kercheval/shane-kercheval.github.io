@@ -4,7 +4,6 @@ date:   2015-12-26 05:00:00 -0800
 categories: legal
 excerpt: Here's a few reasons why I don't sign NDAs when people pitch me ideas.
 keywords: Non-Disclosure Agreements, ndas, legal
-#thumbnail: /
 ---
 ##If you need an NDA to protect your idea, it's probably not very good.
 
@@ -20,7 +19,7 @@ NDAs muddy the water on what I can or can't work on. And because I'm not sure wh
 
 ##It's just one more thing for me to track.
 
-For every NDA I sign, I would have to somehow track what I can or can't disclose, what I can or can't work on. That sounds exhausting, and I have better things to do. 
+For every NDA I sign, I would have to somehow track what I can or can't disclose, what I can or can't work on. That sounds exhausting, and I have better things to do.
 
 ##Except..
 

@@ -3,6 +3,7 @@ title:  "Validating an Idea"
 date:   2015-06-28 07:28:39+0000
 categories: strategy ideas lean
 excerpt: Let's say you come up with a great idea; the next big product or service. How do you know what the next steps should be?
+keywords: validating an idea
 ---
 Let's say you come up with a great idea; the next big product or service. **How do you know what the next steps should be?**
 

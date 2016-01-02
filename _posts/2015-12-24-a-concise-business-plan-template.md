@@ -4,7 +4,6 @@ date:   2015-12-24 08:00:00:00 -0800
 categories: templates strategy
 excerpt: There are plenty of in-depth articles and books that show you how to develop a business plan. But sometimes the short and sweet version is all that's needed.
 keywords: business plan template, strategy
-#thumbnail: /
 ---
 My rule of thumb is that a business plan should read as if the target reader(s) are investors. Even if you're writing it for yourself, the question you should continually ask is: '**given the information below, would I invest?**’
 
