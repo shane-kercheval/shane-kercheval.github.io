@@ -139,7 +139,7 @@ If there are any questions regarding this privacy policy you may contact us usin
 {{ siteInfo.street }}
 {{ siteInfo.city }}, {{ siteInfo.state }} {{ siteInfo.zip }}
 {{ siteInfo.country }}
-shane.kercheval@yahoo.com
+{{ siteInfo.email }}
 ~~~
 
 Last Edited on 2015-12-26
