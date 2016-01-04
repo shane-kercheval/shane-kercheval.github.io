@@ -91,7 +91,7 @@ NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook 
   function stringStartsWith (string, prefix) {
     return string.slice(0, prefix.length) == prefix;
   }
-  function gtmPush(category, action, label, value) {
+  function gtmPush(category, action, label, value) { //this is possible because in GTM we created a 'generic event tag'. Instructions here: http://www.simoahava.com/analytics/create-a-generic-event-tag/
     {% if site.data.config.google_tag_manager_id and jekyll.environment != "development" %} //only make the call if configured in jekyll configuration file, otherwise the final generated site/code won't contain the code
 
       if(stringStartsWith(window.location.href, 'http://127.0.0.1:4000/')){
