@@ -6,15 +6,10 @@ description: > # this means to ignore newlines
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site
-logo: "/img/logo.png"
-large_logo: "/img/large_logo.png"
-large_logo_width: 600
-large_logo_height: 315
 
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
-google_tag_manager_id: GTM-5CNNSG
 
 # http://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:

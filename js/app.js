@@ -92,7 +92,7 @@ NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook 
     return string.slice(0, prefix.length) == prefix;
   }
   function gtmPush(category, action, label, value) {
-    {% if site.google_tag_manager_id and jekyll.environment != "development" %} //only make the call if configured in jekyll configuration file, otherwise the final generated site/code won't contain the code
+    {% if site.data.config.google_tag_manager_id and jekyll.environment != "development" %} //only make the call if configured in jekyll configuration file, otherwise the final generated site/code won't contain the code
 
       if(stringStartsWith(window.location.href, 'http://127.0.0.1:4000/')){
         category = "(TEST) " + category;
