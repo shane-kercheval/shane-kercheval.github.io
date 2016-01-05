@@ -10,14 +10,14 @@ keywords: jekyll, blogging, wordpress
 - using Jekyll is easier/faster
   - customizing text format using markdown is significantly better
   - customizing the look/feel/functionality of the site is a lot easier
-  - Jekyll is well documented
+  - Jekyll is well-documented
 - Jekyll is lightweight
   - WordPress is slow
   - ever try to move your WordPress site?
 - hosting a Jekyll site is free with GitHub Pages!!
 
 <br />
-[Jekyll](http://jekyllrb.com/){:target="\_blank"} is a tool used to build static, custom websites and blogs. Unlike WordPress, which is a content management system, Jekyll is more of an engine or generator that takes your markdown files, templates, etc., and generates the necessarily html/css for you.
+[Jekyll](http://jekyllrb.com/){:target="\_blank"} is a tool used to build static, custom websites and blogs. Unlike WordPress, which is a content management system, Jekyll is more of an engine or generator that takes your markdown files, templates, etc., and generates the necessarily HTML/CSS for you.
 
 > [{% include icon-twitter.svg %}  There are pros and cons to each tool, but I have no regrets in my move to Jekyll.]( https://twitter.com/intent/tweet?text=There%20are%20pros%20and%20cons%20to%20each%20tool%2C%20but%20I%20have%20no%20regrets%20in%20my%20move%20to%20Jekyll.%20{{ site.url }}{{ page.url }}){:target="\_blank"}
 
@@ -38,11 +38,11 @@ Writing in markdown is way better than using the WordPress's editor. Sure there 
   customizing the look/feel/functionality of the site is a lot easier
 {:/comment}
 
-I’ve also never really found a WordPress theme that fit exactly what I wanted.
+I’ve also never found a WordPress theme that fit exactly what I wanted.
 
-Alternatively, Jekyll gives you a nice, minimal site to start with. Anyone with some basic HTML/CSS/JavaScript skills can expand their website as much as they want. Also, Jekyll is very well [documented](http://jekyllrb.com/docs/home/){:target="\_blank"}.
+Alternatively, Jekyll gives you a nice, minimal site to start. Anyone with some basic HTML/CSS/JavaScript skills can expand their website as much as they want. Also, Jekyll is very well [documented](http://jekyllrb.com/docs/home/){:target="\_blank"}.
 
-Even with these skills, though, customizing WordPress themes is not intuitive. Some companies with simple static WordPress websites outsource the their development, not because they don’t have the web skills, but because they don’t have the WordPress knowledge needed (and/or because it is a pain).
+Even with these skills, though, customizing WordPress themes is not intuitive. Some companies with simple static WordPress websites outsource their development, not because they don’t have the web skills, but because they don’t have the WordPress knowledge needed (and because it is a pain).
 
 I’ve spent considerable time trying to figure out how to do simple things in WordPress, only to give up in frustration.
 
@@ -58,6 +58,6 @@ Also, ever try to move your WordPress site? WordPress uses [databases](https://c
 
 Hosting with GitHub Pages is free and easy and, of course, [TreeHouse has a course](https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages){:target="\_blank"} for getting it set up. GitHub also has [good documentation](https://pages.github.com){:target="\_blank"}.
 
-Updating Jekyll via GitHub Pages requires Git, which isn’t difficult to learn, but isn’t as easy as logging on to WordPress. That said, the pro's far outweigh the cons.
+Updating Jekyll via GitHub Pages requires Git, which isn’t difficult to learn, but isn’t as easy as logging on to WordPress. That said, the pros far outweigh the cons.
 
 [^1]: I use [Atom](https://atom.io){:target="\_blank"} on OS X. You can preview what the markdown will look like. You can even put it in a pane and see the preview as you type.
