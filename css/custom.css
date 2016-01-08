@@ -37,10 +37,8 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
   margin: 0 auto;
 }
 .landing_page h2 {
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 2.4em;
   text-align: center;
-
 }
 .landing_page .site-nav .page-link {
   color: white;
