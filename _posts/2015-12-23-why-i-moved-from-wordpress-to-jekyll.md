@@ -2,7 +2,7 @@
 title:  "Why I Moved From WordPress to Jekyll"
 date:   2015-12-22 12:00:00 -0800
 categories: jekyll blogging
-excerpt: There are pros and cons to both tools, but I have no regrets in my move to Jekyll.
+excerpt: There are pros and cons to both tools, but I have no regrets about my move to Jekyll.
 keywords: jekyll, blogging, wordpress
 ---
 #tl;dr
@@ -19,10 +19,10 @@ keywords: jekyll, blogging, wordpress
 <br />
 [Jekyll](http://jekyllrb.com/){:target="\_blank"} is a tool used to build static, custom websites and blogs. Unlike WordPress, which is a content management system, Jekyll is more of an engine or generator that takes your markdown files, templates, etc., and generates the necessarily HTML/CSS for you.
 
-> [{% include icon-twitter.svg %}  There are pros and cons to each tool, but I have no regrets in my move to Jekyll.]( https://twitter.com/intent/tweet?text=There%20are%20pros%20and%20cons%20to%20each%20tool%2C%20but%20I%20have%20no%20regrets%20in%20my%20move%20to%20Jekyll.%20{{ site.url }}{{ page.url }}){:target="\_blank"}
+> [{% include icon-twitter.svg %}  There are pros and cons to each tool, but I have no regrets about my move to Jekyll.]( https://twitter.com/intent/tweet?text=There%20are%20pros%20and%20cons%20to%20each%20tool%2C%20but%20I%20have%20no%20regrets%20in%20my%20move%20to%20Jekyll.%20{{ site.url }}{{ page.url }}){:target="\_blank"}
 
 
-I first learned about Jekyll from browsing courses on [TreeHouse](https://teamtreehouse.com/){:target="\_blank"}. They have few Jekyll intro courses (below) which I took out of curiosity. I immediately realized that Jekyll would be a great alternative to WordPress.
+I first learned about Jekyll from browsing courses on [TreeHouse](https://teamtreehouse.com/){:target="\_blank"}. They have few Jekyll intro courses (below) which I took out of curiosity. I immediately realized that Jekyll would be an excellent alternative to WordPress.
 
 - [https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages](https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages){:target="\_blank"}
 - [https://teamtreehouse.com/library/create-a-jekyll-site-on-github](https://teamtreehouse.com/library/create-a-jekyll-site-on-github){:target="\_blank"}

@@ -55,7 +55,7 @@ My rule of thumb is that a business plan should read as if the target reader(s) 
 - how do you address feedback, comments, questions, defects? what is the warranty?
 - how will you build a brand?
 - how are you going to get customers’ attention? which tactics will you use? where will you find them?
-- what is your sales process/funnel? how are you going to drive them threw you're sales process? how are you going to convince them to buy your product?
+- what is your sales process/funnel? how are you going to drive them through your sales process? how are you going to convince them to buy your product?
 - what are your expected conversion rates, cost of acquisition, customer lifetime value?
 
 ##Industry Analysis (Porter's Five Forces)

@@ -21,6 +21,6 @@ thumbnail_height: 325
 - **gut decisions** - decision making based off of data is almost always better than gut decisions; track and measure what you do
 - **attributing success to oneself, and failure to 'bad luck'** - dig in to find the reason for success or failure
 - **bad partnerships** - e.g. not setting the right expectations; inability to have frank discussions
-- **not enough capital** - we overestimate the market's response, and underestimate how much everything will cost
+- **not enough capital** - we overestimate the market's response and underestimate how much everything will cost
 - **the offering lacks value** - isn't as unique as you thought, isn't as valuable, etc.
 - **not profitable** - related to planning above, you simply didn't do a good job forecasting and anticipating the market's response

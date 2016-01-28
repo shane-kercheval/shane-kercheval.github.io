@@ -7,7 +7,7 @@ keywords: Non-Disclosure Agreements, ndas, legal
 ---
 ##If you need an NDA to protect your idea, it's probably not very good.
 
-One of the characteristics of a great idea is that it has a 'moat', or a competitive advantage, that exists such that the idea can't be easily copied or stolen.
+One characteristic of a great idea is that it has a 'moat', or a competitive advantage, that exists such that the idea can't be easily copied or stolen.
 
 So if you're worried that I'm going to steal your idea after a 30-minute conversation, then what's to keep your competition from doing the same thing once you launch?
 
@@ -19,9 +19,9 @@ NDAs muddy the water on what I can or can't work on. And because I'm not sure wh
 
 ##It's just one more thing for me to track.
 
-For every NDA I sign, I would have to track somehow what I can or can't disclose, what I can or can't work on. That sounds exhausting, and I have better things to do.
+For every NDA I sign, I would have to somehow track what I can or can't disclose, what I can or can't work on. That sounds exhausting, and I have better things to do.
 
-##Except..
+##Except...
 
 There are certain scenarios where NDAs make sense. Typically where there is something tangible to point to.
 
