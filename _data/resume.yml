@@ -1,7 +1,7 @@
 name: Shane Kercheval
 credentials: ", MBA"
 
-summary_name: Professional Profile
+summary_name: About Me
 experience_name: Experience
 education_name: Education
 skills_name: Professional Skills
@@ -15,14 +15,21 @@ contact_info:
   blog: http://shanekercheval.me/blog
 
 summaries:
-  - summary: Dedicated to continual improvement/education.
-  - summary: Extremely high degree of integrity and ethical standards.
-  - summary: Demonstrates immense focus, discipline, and meticulousness.
-  - summary: Demonstrates excellent critical thinking skills; detail oriented.
-  - summary: Excellent communication skills, including both verbal and written; high degree of emotional intelligence.
-  - summary: Experience in highly technical positions.
-  - summary: Experience in very diverse fields
-  - summary: Develops/manages highly successful onshore and offshore teams
+  - summary: Ideas are easy. Strategy and execution are not.
+  - summary: I help companies create strategies that identify assumptions and reduce risks. Then I help them execute.
+  - summary: I do this from a ‘full-stack’ perspective, bringing many skills to the table. These insights allow me to navigate complex challenges.
+#  - summary: Things I like- transparency, critical thinking, problem-solving, healthy work/life balance, work that makes an impact, integrity, hitting goals, continual improvement, meticulousness
+#  - summary: Things I dislike- bureaucracy, hidden agendas, dishonesty, *unnecessary* chaos, people/companies who create ‘noise’ rather than value
+  - summary: My ideal environment is fast paced with decisive leadership that empowers employees. I fit best in small to medium-sized companies that have a passion for delivering value and want to improve and grow.
+
+#  - summary: Dedicated to continual improvement/education.
+#  - summary: Extremely high degree of integrity and ethical standards.
+#  - summary: Demonstrates immense focus, discipline, and meticulousness.
+#  - summary: Demonstrates excellent critical thinking skills; detail oriented.
+#  - summary: Excellent communication skills, including both verbal and written; high degree of emotional intelligence.
+#  - summary: Experience in highly technical positions.
+#  - summary: Experience in very diverse fields
+#  - summary: Develops/manages highly successful onshore and offshore teams
 
 jobs:
   - company: GoDirect Foods
@@ -115,6 +122,8 @@ skills:
     skill_level: 7
 
 tools:
+  - tool: HTML/CSS/JavaScript
+    skill_level: 5
   - tool: Google Analytics
     skill_level: 5
   - tool: Google Tag Manager

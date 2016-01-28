@@ -16,11 +16,18 @@ include_in_nav: false
 </div>
 <div id="primary-column">
   <h2>{{ resume.summary_name }}</h2>
+  {% for summary in resume.summaries %}
+    <p>{{ summary.summary }}</p>
+  {% endfor %}
+
+<!--
   <ul>
     {% for summary in resume.summaries %}
       <li>{{ summary.summary }}</li>
     {% endfor %}
   </ul>
+-->
+
   <h2>{{ resume.experience_name }}</h2>
   {% for job in resume.jobs %}
     <div class="resume_job_item">
