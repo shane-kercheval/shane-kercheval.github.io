@@ -32,18 +32,6 @@ summaries:
 #  - summary: Develops/manages highly successful onshore and offshore teams
 
 jobs:
-  - company: GoDirect Foods
-    website: http://godirectfoods.com
-    position: Advisor / Strategy Consultant
-    years: 2015 - present
-    responsibilities:
-      - desc: Identify key business activities and strategic options; helped to plan and provide insight into execution of ideas and projects
-      - desc: Provide guidance into scientific method of validating hypotheses
-      - desc: Set up analytics system in order to make data-based decisions
-      - desc: Led crowdfunding campaign, raised $10,000
-      - desc: Created marketing plan and provided ongoing marketing insights
-      - desc: Led team to implement collaboration/communication methods
-
   - company: IntelliTect
     website: http://IntelliTect.com
     position: Strategy Analyst; Ideation Lead
@@ -57,6 +45,17 @@ jobs:
       - desc: Highly involved in legal activities including reviewing/updating contracts, negotiation of contracts with clients
       - desc: Assisted in the development of various marketing and sales content
 
+  - company: GoDirect Foods
+    website: http://godirectfoods.com
+    position: Advisor / Strategy Consultant
+    years: 2014 - 2015
+    responsibilities:
+      - desc: Identify key business activities and strategic options; helped to plan and provide insight into execution of ideas and projects
+      - desc: Provide guidance into scientific method of validating hypotheses
+      - desc: Set up analytics system in order to make data-based decisions
+      - desc: Led crowdfunding campaign, raised $10,000
+      - desc: Created marketing plan and provided ongoing marketing insights
+      - desc: Led team to implement collaboration/communication methods
 
   - company: Itron
     website: http://Itron.com
@@ -110,14 +109,14 @@ skills:
     skill_level: 3
   - skill: Psychology / Behavior
     skill_level: 4
-  - skill: Research
-    skill_level: 5
+  - skill: Risk Management
+    skill_level: 6
+  - skill: Process Improvement
+    skill_level: 6
   - skill: Communication
     skill_level: 6
   - skill: Leadership
     skill_level: 5
-  - skill: Adaptability
-    skill_level: 6
   - skill: Organization
     skill_level: 7
 
