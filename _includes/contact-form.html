@@ -3,7 +3,7 @@
 <div id="contact-form-container">
 <hr id="contact-form-line">
 <form id="contact-form" action="//formspree.io/{{ form.email }}" method="POST">
-  <h2>{{ form.header }}</h2>
+  <h1>{{ form.header }}</h1>
   <input class="contact-form-item" type="email" value="" name="_replyto" placeholder="{{ form.email_placeholder }}" required>
   <textarea class="contact-form-item" type="text" value="" name="message" placeholder="{{ form.textarea_placeholder }}" required></textarea>
   <button id="contact-form-submit-button" class="button contact-form-item" type="submit">{{ form.button_text }}</button>

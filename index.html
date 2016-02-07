@@ -10,9 +10,9 @@ owner: Shane Kercheval
 
 <div class="home">
   <div class="wrapper">
-    <h2>
+    <h1>
       {{ site.data.value.intro.header }}
-    </h2>
+    </h1>
     <p class="description">
       {{ site.data.value.intro.description }}
     </p>
@@ -23,10 +23,11 @@ owner: Shane Kercheval
           <p class="list-description">{{ offering.description }}</p>
         </li>
       {% endfor %}
+    </ul>
   </div>
   <testimonials class="gray">
     <div class="wrapper">
-      <h2>Testimonials</h2>
+      <h1></h1>
       <ul class="boxlist">
         {% for testimonial in testimonials %}
           <li class="testimonial-component">
@@ -43,7 +44,7 @@ owner: Shane Kercheval
     </div>
   </testimonials>
   <div class="wrapper skills">
-    <h2>Skills</h2>
+    <h1>Skills</h1>
     <ul class="boxlist">
       {% for skill in skills %}
         <li class="offerings">
