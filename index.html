@@ -9,27 +9,27 @@ owner: Shane Kercheval
 {% assign skills = site.data.value.skills %}
 
 <div class="home">
-  <div class="wrapper">
-    <h1>
-      {{ site.data.value.intro.header }}
-    </h1>
-    <p class="description">
-      {{ site.data.value.intro.description }}
-    </p>
-    <div id=offering-container>
-      {% for offering in offerings %}
-        <div id="offering{{ forloop.index }}" class="offerings">
-          <p class="offering-title item-{{ forloop.index }}">{{ offering.name }}</p>
-          {% for value in offering.value %}
-            <p class="offering-value-title">{{ value.title }}</p>
-            <p class="offering-value">{{ value.description }}</p>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
+  <h1>
+    {{ site.data.value.intro.header }}
+  </h1>
+  <p class="description">
+    {{ site.data.value.intro.description }}
+  </p>
+  <p class="description offering-explanation">
+    {{ site.data.value.intro.offering }}
+  </p>
+  <div id=offering-container>
+    {% for offering in offerings %}
+      <div id="offering{{ forloop.index }}" class="offerings">
+        <p class="offering-title item-{{ forloop.index }}">{{ offering.name }}</p>
+        {% for value in offering.value %}
+          <p class="offering-value-title">{{ value.title }}</p>
+          <p class="offering-value">{{ value.description }}</p>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
   <div class="gray">
-    <div class="wrapper">
       <h1></h1>
       <ul class="boxlist">
         {% for testimonial in testimonials %}
@@ -44,9 +44,8 @@ owner: Shane Kercheval
           </li>
         {% endfor %}
       </ul>
-    </div>
   </div>
-  <div class="wrapper skills">
+  <div class="skills">
     <h1>Skills</h1>
     <ul class="boxlist">
       {% for skill in skills %}

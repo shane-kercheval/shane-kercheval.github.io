@@ -26,6 +26,10 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-size: 1.1em;
   text-align: center;
 }
+.offering-explanation {
+  margin-top: 30px;
+  font-weight: 600;
+}
 .landing_page .site-title {
   color: white;
   font-size: 4em;
@@ -96,13 +100,13 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   margin: 0px auto;
   margin-bottom: 30px;
   font-weight: 300;
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
   /*text-transform: uppercase;*/
   border-bottom: solid 2px;
 }
 .offering-value-title {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -355,7 +359,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-size: 0.9em;
 }
 .post-template {
-  max-width: 750px;
+  max-width: 900px;
   font-size: 1.1em;
   word-wrap: normal;
 }

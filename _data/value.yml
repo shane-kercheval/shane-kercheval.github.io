@@ -1,32 +1,29 @@
 intro:
     header: Most Startups Fail.
-    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming. I help entrepreneurs build a strategy that decreases risk and uncovers opportunities.
+    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming.
+    offering: I help entrepreneurs build a strategy that decreases risk and uncovers opportunities, by offering the follwing services.
 
 offerings:
-  - name: Strategy
+  - name: Strategy Consulting
     value:
       - title: Identify Assumptions and Risks.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        description: Identifying key business model assumptions is often overlooked, despite being critical to success. Together, we will highlight assumptions and mitigate risks.
       - title: Determine Strategic Objectives.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        description: Strategy involves understanding options, making decisions, and developing milestones and objectives; and then continually optimizing those objectives.
       - title: Determine Metrics and Measurements.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        description: Choosing the right metrics is critical to making good decisions and continuously optimizing the strategy. I help entrepreneurs measure, experiment, and adjust.
       - title: Leadership and Execution.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-      - title: Leadership and Execution.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-  - name: Tactics
+        description: A great idea/strategy poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
+  - name: Tactics Consulting
     value:
-      - title: Conduct Experiments.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-      - title: Analytics & Finance.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-      - title: Marketing and Social Media.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Finance & Forecasting.
+        description: A great strategy executed to perfection can still fail miserably if financial expectations aren’t realistic or are not forecasted correctly.
+      - title: Marketing and Analytics.
+        description: Marketing is the process of understanding the pains and needs of your target market and then describing your value proposition in a way that resonates with them.
       - title: Customer Acquisition Techniques.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        description: Your target market won’t magically know your product exists just because you have a great idea and marketing message. You still need to go out and find customers.
       - title: Static Website Development.
-        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+        description: A website legitimizes your product/service and allows you to explain your value proposition. It also enables you to collect data via analytics and email collection tactics.
 
 testimonials:
   - name: JC Conrad
