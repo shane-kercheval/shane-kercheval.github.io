@@ -1,6 +1,14 @@
 html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers */
   overflow-x:hidden;
 }
+a,a:link,a:visited
+{
+  color: darkorange;
+  text-decoration:none;
+}
+a:hover { /* any nav link (a) that has the class selected will get these attributes */
+  color: #00ACFF;
+}
 .site-header {/* header.html */
   border-top: 8px solid orange;
 }
@@ -13,14 +21,6 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
   background-image: radial-gradient(circle at top right, darkorange, orange);
   padding-bottom: 60px;
   border-top: 0px;
-}
-.post-link {
-  font-weight: 300;
-  font-size: 1.0em;
-}
-.post-title {
-  font-weight: 300;
-  font-size: 2.4em;
 }
 .landing_page .description {
   font-size: 1.1em;
@@ -56,14 +56,8 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
 }
 .landing_page .site-nav .page-link {
   color: white;
-}
-a,a:link,a:visited
-{
-  color: darkorange;
-  text-decoration:none;
-}
-a:hover { /* any nav link (a) that has the class selected will get these attributes */
-  color: #00ACFF;
+  font-size: 1em;
+  font-weight: 300;
 }
 /* use on box type lists */
 .boxlist {
@@ -87,7 +81,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .list-description {
   font-size: 0.9em;
 }
-.offerings{
+.offerings {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -222,6 +216,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .profile-photo {
   max-width: 200px;
   border-radius: 100%; /* makes the picture a cirle rather than a square */
+  margin-bottom: 25px;
 }
 #primary-column {
   text-align: center;
@@ -314,6 +309,14 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 #blogs h2 {
   margin-bottom: 5px;
+}
+.post-link {
+  font-weight: 300;
+  font-size: 1.0em;
+}
+.post-title {
+  font-weight: 300;
+  font-size: 2.4em;
 }
 .post-list li {
   clear: both;
@@ -556,6 +559,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
   }
   .landing_page .site-nav .page-link {
     color: #424242;
+    font-weight: 400;
   }
   .site-footer{
     text-align: center;
