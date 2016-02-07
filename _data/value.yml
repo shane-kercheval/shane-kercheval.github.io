@@ -3,14 +3,30 @@ intro:
     description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming. I help entrepreneurs build a strategy that decreases risk and uncovers opportunities.
 
 offerings:
-  - name: Ongoing Consulting
-    description: For first-time founders who want continual expertise and feedback while growing their business. You will get ongoing strategic advice and insight from someone who will become part of your team. Together, we'll move faster and overcome challenges.
-
-  - name: Strategy Formation
-    description: For first-time founders who want to figure out the best way to move forward. Together, we'll come up with a strategy that explains how to move forward and overcome the inherent challenges, and we'll develop a framework for decision making that reduces risk.
-
-  - name: Financial Forecasting
-    description: For first-time founders who need to develop a financial forecast model for new business ideas. A lot of startups fail because they simply don't forecast correctly. Together, we'll come up with a realistic forecast model that allows you to plan for success.
+  - name: Strategy
+    value:
+      - title: Identify Assumptions and Risks.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Determine Strategic Objectives.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Determine Metrics and Measurements.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Leadership and Execution.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Leadership and Execution.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+  - name: Tactics
+    value:
+      - title: Conduct Experiments.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Analytics & Finance.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Marketing and Social Media.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Customer Acquisition Techniques.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+      - title: Static Website Development.
+        description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
 
 testimonials:
   - name: JC Conrad

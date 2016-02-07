@@ -16,14 +16,17 @@ owner: Shane Kercheval
     <p class="description">
       {{ site.data.value.intro.description }}
     </p>
-    <ul class="boxlist">
+    <div id=offering-container>
       {% for offering in offerings %}
-        <li class="offerings">
-          <div class="item-{{ forloop.index }} offering-title">{{ offering.name }}</div>
-          <p class="list-description">{{ offering.description }}</p>
-        </li>
+        <div id="offering{{ forloop.index }}" class="offerings">
+          <p class="offering-title item-{{ forloop.index }}">{{ offering.name }}</p>
+          {% for value in offering.value %}
+            <p class="offering-value-title">{{ value.title }}</p>
+            <p class="offering-value">{{ value.description }}</p>
+          {% endfor %}
+        </div>
       {% endfor %}
-    </ul>
+    </div>
   </div>
   <testimonials class="gray">
     <div class="wrapper">
@@ -47,8 +50,8 @@ owner: Shane Kercheval
     <h1>Skills</h1>
     <ul class="boxlist">
       {% for skill in skills %}
-        <li class="offerings">
-          <div class="item-{{ forloop.index }} offering-title">{{ skill.name }}</div>
+        <li class="skill-item">
+          <div class="item-{{ forloop.index }} skill-title">{{ skill.name }}</div>
           <p class="list-description">{{ skill.description }}</p>
         </li>
       {% endfor %}
