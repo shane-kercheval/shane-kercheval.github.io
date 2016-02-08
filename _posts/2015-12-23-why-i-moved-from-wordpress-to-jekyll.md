@@ -5,7 +5,7 @@ categories: jekyll blogging
 excerpt: There are pros and cons to both tools, but I have no regrets about my move to Jekyll.
 keywords: jekyll, blogging, wordpress
 ---
-#tl;dr
+# tl;dr
 
 - using Jekyll is easier/faster
   - customizing text format using markdown is significantly better
@@ -30,7 +30,7 @@ I first learned about Jekyll from browsing courses on [TreeHouse](https://teamtr
 
 **So why make the move from Wordpress?**
 
-#Using Jekyll is Easier/Faster
+# Using Jekyll is Easier/Faster
 
 Writing in markdown is way better than using the WordPress's editor. Sure there is some [markdown syntax to learn](http://assemble.io/docs/Cheatsheet-Markdown.html){:target="\_blank"}, but it is pretty straightforward and there are plenty of editors out there.[^1] I constantly ran into issues doing trivial things in WordPress (like creating a simple table).
 
@@ -48,13 +48,13 @@ I’ve spent considerable time trying to figure out how to do simple things in W
 
 I will say, however, that Jekyll is probably most useful if you learn a little HTML, CSS, JavaScript, which you can do over at TreeHouse. But it isn’t required.
 
-#Jekyll is Lightweight
+# Jekyll is Lightweight
 
 WordPress is slow... slow to load, slow to add content, slow to change.
 
 Also, ever try to move your WordPress site? WordPress uses [databases](https://codex.wordpress.org/Database_Description){:target="\_blank"} to store info, Jekyll uses a simple file structure.
 
-#Hosting a Jekyll Site is Free with GitHub Pages!!
+# Hosting a Jekyll Site is Free with GitHub Pages!!
 
 Hosting with GitHub Pages is free and easy and, of course, [TreeHouse has a course](https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages){:target="\_blank"} for getting it set up. GitHub also has [good documentation](https://pages.github.com){:target="\_blank"}.
 

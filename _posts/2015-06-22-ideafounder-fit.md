@@ -27,17 +27,17 @@ What should you do about it? Wait.. backup.. Should *you* be the one to do somet
 *   passion about the problem
 *   or... you have one or more of the above "by proxy"
 
-#Industry Expertise
+# Industry Expertise
 Do you really know what you're talking about? Or is your idea based on what you think you understand about some other industry you actually don't know anything about? Not everyone is an expert in area that they jump into, and that's OK. But if you're not an expert, there needs to be some other motivating factor. (And you better go find an expert.)
 
-#Solving a Problem You Have
+# Solving a Problem You Have
 If you solve a problem you have, you are essentially your own customer. You will know if you're successfully solving your problem, how painful the problem is, how it fits into the big picture of your life, and so on. This doesn't eliminate the need to go out and chat with potential customers and verify your value proposition, but helps to decrease your risk of not finding that product/market fit defined earlier.
 
-#Solving a Problem You Are Passionate About
+# Solving a Problem You Are Passionate About
 Are you passionate about the problem? If you're passionate about something, you will have the willpower to keep driving forward when you run into problems, when you have to adjust, when you don't know what to do, or when you have to go find someone that does know.
 
-#By Proxy
+# By Proxy
 There's a caveat. If you partner with someone that has one of the previous characteristics, then I guess you're off the hook. So if you're passionate about building software, for example, and you find someone who is passionate about the actual problem, or perhaps is an industry expert, I'd say that's a good start. Point: if you think you have the next wizbang idea but you don't know anything about the industry, aren't solving a problem you have, or don't have a passion for the problem, go find someone who does.
 
-#Remember
+# Remember
 These rules aren't an indication of success, they are simply a prequalification for starting. And the more prequalifications that you posses, the better!

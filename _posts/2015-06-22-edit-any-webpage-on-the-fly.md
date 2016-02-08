@@ -18,7 +18,7 @@ In order for you to do this, simply follow these steps:
 
 ================================
 
-##Update
+## Update
 
 The following steps still work, but I have since found a [Chrome extension (PageEdit)](https://chrome.google.com/webstore/detail/pageedit/ebkclgoaabaibghklgknnjdemknjaeic){:target="\_blank"} that provides this functionality and more.
 

@@ -8,7 +8,7 @@ thumbnail: /img/blog/fail.png
 thumbnail_width: 325
 thumbnail_height: 325
 ---
-**Why do some businesses fail? Here are the top on my list:**
+**Why do some businesses fail?** Here are the top on my list:
 
 - **over-confidence** - people have a tendency to think their idea is great, and assume everyone else will as well; or we're just over-confident in our abilities
 - **lack of expertise in the industry** - making assumptions about how the industry works or what it wants is dangerous
