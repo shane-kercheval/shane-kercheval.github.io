@@ -8,22 +8,30 @@ offerings:
     value:
       - title: Identify Assumptions and Risks.
         description: Identifying key business model assumptions is often overlooked, despite being critical to success. Together, we will highlight assumptions and mitigate risks.
+        icon: icon-notification
       - title: Determine Strategic Objectives.
         description: Strategy involves understanding options, making decisions, and developing milestones and objectives; and then continually optimizing those objectives.
+        icon: icon-checkbox-checked
       - title: Determine Metrics and Measurements.
         description: Choosing the right metrics is critical to making good decisions and continuously optimizing the strategy. I help entrepreneurs measure, experiment, and adjust.
+        icon: icon-pie-chart
       - title: Leadership and Execution.
         description: A great idea/strategy poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
+        icon: icon-users
   - name: Tactics Consulting
     value:
       - title: Finance & Forecasting.
         description: A great strategy executed to perfection can still fail miserably if financial expectations aren’t realistic or are not forecasted correctly.
+        icon: icon-stats-dots
       - title: Marketing and Analytics.
         description: Marketing is the process of understanding the pains and needs of your target market and then describing your value proposition in a way that resonates with them.
+        icon: icon-rocket
       - title: Customer Acquisition Techniques.
         description: Your target market won’t magically know your product exists just because you have a great idea and marketing message. You still need to go out and find customers.
+        icon: icon-spinner10
       - title: Static Website Development.
         description: A website legitimizes your product/service and allows you to explain your value proposition. It also enables you to collect data via analytics and email collection tactics.
+        icon: icon-hammer
 
 testimonials:
   - name: JC Conrad

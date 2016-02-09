@@ -27,7 +27,6 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   text-align: center;
 }
 .offering-explanation {
-  margin-top: 30px;
   font-weight: 600;
 }
 .landing_page .site-title {
@@ -83,7 +82,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   border-bottom: solid 2px;
 }
 .list-description {
-  font-size: 0.9em;
+  font-size: 1.0em;
 }
 .offerings {
   list-style: none;
@@ -110,8 +109,16 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-weight: 600;
   margin-bottom: 0px;
 }
-.offering-value{
+.offering-value {
   margin-bottom: 30px;
+}
+.offering-icon-container {
+  overflow: hidden;
+}
+.offering-icon {
+  width: 32px;
+	height: 32px;
+	fill: #424242;
 }
 #offering-container {
   margin: 60px 0px;
@@ -573,6 +580,9 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 
 @media screen and (min-width: 600px) {
   /* if the screen is larger than 600 we want to show the offerings in 3 columns */
+  .landing_page .wrapper {
+    max-width: 1000px;
+  }
   #offering1 {
     width: 48%;
     float: left;
@@ -583,6 +593,10 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
     width: 48%;
     float: right;
     text-align: left;
+  }
+  .offering-item {
+    float: right;
+    width: calc(100% - 50px);
   }
   .skill-title {
     width: 100%;
