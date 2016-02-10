@@ -15,7 +15,7 @@ include_in_nav: true
                     <h2>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
-                    {{ post.excerpt }}
+                    <p class="post-excerpt">{{ post.excerpt }}</p>
                     <a href="{{ post.url | prepend: site.baseurl }}" target="_blank" class="button" >Read More</a>
                 </li>
             {% endfor %}

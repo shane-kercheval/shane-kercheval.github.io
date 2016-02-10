@@ -340,6 +340,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .post-list > li {
   margin-bottom: 60px;
 }
+.post-excerpt {
+  font-size: 1.1em;
+}
 #blog-info {
   text-align: center;
 }
