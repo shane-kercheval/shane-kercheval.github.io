@@ -11,6 +11,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 }
 .site-header {/* header.html */
   border-top: 8px solid orange;
+  letter-spacing: 1.3px;
 }
 .site-header .wrapper {
   max-width: none;
@@ -29,6 +30,9 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .offering-explanation {
   font-weight: 600;
 }
+.site-title {
+  letter-spacing: 1.2px;
+}
 .landing_page .site-title {
   color: white;
   font-size: 4em;
@@ -44,8 +48,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   padding-bottom: 10px;
   border-bottom: 2px solid;
   font-size: 1.6em;
-  letter-spacing: 1.3px;
-  font-weight: lighter;
+  font-weight: 300;
   text-align: center;
   width: 250px;
   display: block;
@@ -57,10 +60,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-weight: 300;
   text-align: center;
 }
-.landing_page .site-nav .page-link {
-  color: white;
-  font-size: 1em;
+.page-link {
+  font-size: 1.2em;
   font-weight: 300;
+}
+.landing_page .page-link {
+  color: white;
 }
 /* use on box type lists */
 .boxlist {
@@ -580,7 +585,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 
 @media screen and (min-width: 600px) {
   /* if the screen is larger than 600 we want to show the offerings in 3 columns */
-  .landing_page .wrapper {
+  .page-content .wrapper {
     max-width: 1000px;
   }
   #offering1 {
