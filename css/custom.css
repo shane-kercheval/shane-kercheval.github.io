@@ -229,6 +229,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 **************/
 .skills {
   padding-top: 30px;
+  overflow: hidden;
 }
 /*************
 ** Contact.html

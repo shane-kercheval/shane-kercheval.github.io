@@ -86,7 +86,7 @@ $(document).ready(function(e){
 
 /********************
 **  contact-form.html
-NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook into this and I can't track form submission events via GTM. I'll have to add custom code
+NOTE: The downside for adding JavaScript is that Google Tag Manager cannot hook into this and I can't track form submission events via GTM. I had to add custom code
 *********************/
   function stringStartsWith (string, prefix) {
     return string.slice(0, prefix.length) == prefix;
