@@ -17,10 +17,17 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   max-width: none;
 }
 .landing_page .site-header { /* landing_page.html */
-  /*background-image: url("/img/background.jpg");
-  background-size:cover;*/
-  background-image: radial-gradient(circle at top right, darkorange, orange);
-  padding-bottom: 60px;
+  background:
+    /* top, transparent red, faked with gradient */
+    radial-gradient(ellipse,
+      rgba(255, 140, 0, 0.75),
+      rgba(255, 140, 0, 1)
+    ),
+    /* bottom, image */
+    url('/img/background.png');
+  /*  background-image: radial-gradient(circle at top right, darkorange, orange); */
+  background-position: center center;
+  background-size:cover;
   border-top: 0px;
 }
 .landing_page .description {
@@ -40,11 +47,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   text-align: center;
   width: 100%;
   margin: 30px auto;
+  padding-bottom: 30px;
   line-height: 1.1;
 }
 .landing_page .owner {
   color: white;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 10px;
   border-bottom: 2px solid;
   font-size: 1.6em;
@@ -588,8 +596,20 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 
 @media screen and (min-width: 600px) {
   /* if the screen is larger than 600 we want to show the offerings in 3 columns */
+  .landing_page .site-header .wrapper {
+    margin-bottom: 40px;
+  }
   .page-content .wrapper {
     max-width: 1000px;
+  }
+  a.page-link:hover {
+    border-bottom: 3px solid orange;
+  }
+  .landing_page a.page-link:hover {
+    border-bottom: 3px solid white;
+  }
+  .landing_page .site-title {
+    padding-bottom: 50px;
   }
   #offering1 {
     width: 48%;

@@ -6,30 +6,30 @@ intro:
 offerings:
   - name: Strategy Consulting
     value:
-      - title: Assumption Identification.
-        description: Identifying business model assumptions is often overlooked, despite being critical to success. Together, we will highlight risks and assumptions.
-        icon: icon-notification
-      - title: Identify Strategic Objectives.
+      - title: Strategy & Objectives
         description: Strategy involves understanding options, making decisions, and developing milestones and objectives; and then continually optimizing those objectives.
         icon: icon-checkbox-checked
-      - title: Metrics and Measurement.
+      - title: Assumption Identification
+        description: Identifying business model assumptions is often overlooked, despite being critical to success. Together, we will highlight risks and assumptions.
+        icon: icon-notification
+      - title: Metrics and Measurement
         description: Choosing the right metrics is critical to making data-driven decisions and continuous optimization. I help entrepreneurs measure and improve.
         icon: icon-pie-chart
-      - title: Leadership and Execution.
+      - title: Leadership and Execution
         description: A great idea/strategy poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
         icon: icon-users
   - name: Tactics Consulting
     value:
-      - title: Forecasting & ROI Analysis.
+      - title: Forecasting & ROI Analysis
         description: A great strategy executed to perfection can still fail miserably if financial expectations aren’t realistic or are not forecasted correctly.
         icon: icon-stats-dots
-      - title: Marketing and Analytics.
+      - title: Marketing and Analytics
         description: Marketing is simply understanding the needs/pains of your target market and then describing your value proposition in a way that resonates with them.
         icon: icon-rocket
-      - title: Customer Acquisition.
+      - title: Customer Acquisition
         description: Your target market won’t know your product exists just because you have a great idea and website. You still need to go out and find customers.
         icon: icon-spinner10
-      - title: Static Website Development.
+      - title: Static Website Development
         description: A website legitimizes your product/service and allows you to explain your value proposition. It also enables you to collect data via analytics and email collection tactics.
         icon: icon-hammer
 
