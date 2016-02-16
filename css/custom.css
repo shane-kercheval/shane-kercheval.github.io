@@ -24,7 +24,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
       rgba(255, 140, 0, 1)
     ),
     /* bottom, image */
-    url('/img/background.png');
+    url('/img/background.png'); /* https://www.pexels.com/photo/coffee-apple-iphone-desk-45/ */
   /*  background-image: radial-gradient(circle at top right, darkorange, orange); */
   background-position: center center;
   background-size:cover;
