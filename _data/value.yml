@@ -1,7 +1,7 @@
 intro:
     header: Most Startups Fail.
-    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked, or overwhelming.
-    offering: I help entrepreneurs build a strategy that decreases risk and uncovers opportunities, by offering the follwing services.
+    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked or overwhelming.
+    offering: I help entrepreneurs build a strategy that decreases risk and uncovers opportunities, by offering the following services.
 
 offerings:
   - name: Strategy Consulting
@@ -16,7 +16,7 @@ offerings:
         description: Choosing the right metrics is critical to making data-driven decisions and continuous optimization. I help entrepreneurs measure and improve.
         icon: icon-pie-chart
       - title: Leadership and Execution
-        description: A great idea/strategy poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
+        description: A great idea poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
         icon: icon-users
   - name: Tactics Consulting
     value:
