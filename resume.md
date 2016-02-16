@@ -1,9 +1,11 @@
+<!--
 ---
 layout: resume
 title: Resume
 permalink: /resume/
 include_in_nav: false
 ---
+-->
 {% assign resume = site.data.resume %}
 
 <h1>{{ resume.name }}{{ resume.credentials }}</h1>

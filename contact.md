@@ -30,7 +30,7 @@ include_in_nav: true
     (or use the message box below!)
     </li>
     </ul>
-    <p>Click <a href="{{ site.url }}/resume/" target="_blank">here</a> for my resume.</p>
+    <p>Click <a href="{{ site.url }}/Shane%20Kercheval%20-%20resume.pdf" target="_blank">here</a> for my resume.</p>
   </div>
 </div>
 {% include contact-form.html %}
