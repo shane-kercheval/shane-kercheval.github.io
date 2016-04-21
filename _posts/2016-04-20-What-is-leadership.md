@@ -4,7 +4,7 @@ date: 2016-04-20 06:00:00 -0800
 categories: leadership strategy
 excerpt: Someone recently asked me to define leadership... and I struggled to produce a coherent sequence of sentences.
 keywords: leadership, strategy
-thumbnail: /img/blog/fail.png
+thumbnail: /img/blog/what-is-leadership.jpg
 thumbnail_width: 325
 thumbnail_height: 325
 ---
