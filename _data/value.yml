@@ -10,13 +10,13 @@ offerings:
         description: Inspect, cleanse, and wrangle data; discover actionable information and patterns; communicating solutions that support business and marketing strategy.
         icon: icon-rocket
       - title: Software Engineering
-        description: Experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
+        description: Professional experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
         icon: icon-cogs
       - title: Statistics and Machine Learning
-        description: Strong understanding of statistical concepts including p-value, statistical tests, distributions, data collection and sampling techniques.
+        description: Strong understanding of statistical/machine-learning concepts including p-value, tests, distributions, predictive modeling, clustering, and more.
         icon: icon-stats-dots
       - title: A/B Testing
-        description: Running experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
+        description: Running statistical experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
         icon: icon-checkbox-checked
   - name: Technical Proficiencies
     value:
@@ -27,7 +27,7 @@ offerings:
         description: Data is often stored in databases like MS SQL Server or Amazon Redshift and has to be retrieve before it is analyzed. SQL is often the language used for retrieval.
         icon: icon-stats-bars
       - title: General Tools
-        description: Ability to quickly come up to speed and become proficient in many different tools and programming languages.
+        description: Demonstrated ability to quickly come up to speed and become proficient in many different tools, programming languages, and techniques.
         icon: icon-hammer
       - title: Misc.
         description: Python; C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager; Balsamiq Mockups
@@ -39,29 +39,13 @@ testimonials:
     testimonial: I have been working with Shane Kercheval for about a year now. Shane understands business, strategy and what it’s going to take to make a business successful. He will look at every angle and will come back to you and tell you things that you don’t want to hear; he’s going to tell you his honest opinion on what needs to be enhanced, changed, or deleted from your business plan. Now as I look back almost a year later, the value that I received from Shane is worth way more then I think he even realizes. Thanks Shane for helping GoDirect Foods start on the right track.
 
 skills:
-  - name: Growth
-    description: target market & sales funnel optimization; growth tactic identification
-
-  - name: Site Optimization
-    description: determine website goals; optimize conversion rate & user experience
-
-  - name: Analytics
-    description: determine data collection methods, analyze data, make data-driven decisions
-
-  - name: Strategy
-    description: identify options, assumptions, risks, and appropriate next steps
-
-  - name: SEO
-    description: optimize search engine rank with keyword research and on- and off-page SEO tactics
-
-  - name: Forecasting
-    description: develop models to determine break-even point, cash-flow and profit expectations
-
-  - name: Execution
-    description: workflow and task management; organization; execution & focus optimization
-
-  - name: Social Media
-    description: determine social media strategy and techniques; analyze data
-
-  - name: HTML/CSS/JavaScript
-    description: static website development; basic layout, design, and user-interaction
+  - name: GitHub
+    description: 
+  - name: ShaneKercheval (Twitter)
+    description: http://twitter.com/intent/tweet?screen_name=@ShaneKercheval
+  - name: LinkedIn
+    description: 
+  - name: sik@boun.cr (email)
+    description: mailto:sik@boun.cr
+  - name: Resume
+    description: 
