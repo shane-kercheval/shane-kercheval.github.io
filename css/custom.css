@@ -252,6 +252,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 .contact-info {
   list-style: none;
   margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contact-info li {
+  margin-top: 20px;
 }
 /*************
 ** Contact Form
