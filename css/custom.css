@@ -3,14 +3,14 @@ html, body{ /* needed to remove horizontal scroll http://stackoverflow.com/quest
 }
 a,a:link,a:visited
 {
-  color: darkorange;
+  color: rgb(18, 103, 53);
   text-decoration:none;
 }
 a:hover { /* any nav link (a) that has the class selected will get these attributes */
-  color: #00ACFF;
+  color: #85CD75;
 }
 .site-header {/* header.html */
-  border-top: 8px solid orange;
+  border-top: 8px rgb(48, 53, 56);
   letter-spacing: 1.3px;
 }
 .site-header .wrapper {
@@ -20,12 +20,12 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   background:
     /* top, transparent red, faked with gradient */
     radial-gradient(ellipse,
-      rgba(255, 140, 0, 0.75),
-      rgba(255, 140, 0, 1)
+      rgba(48, 53, 56, 0.7),
+      rgba(48, 53, 56, 1.0)
     ),
     /* bottom, image */
     url('/img/background.jpg'); /* https://www.pexels.com/photo/coffee-apple-iphone-desk-45/ */
-  /*  background-image: radial-gradient(circle at top right, darkorange, orange); */
+  /*  background-image: radial-gradient(circle at top right, rgb(18, 103, 53), rgb(18, 103, 53)); */
   background-position: center center;
   background-size:cover;
   border-top: 0px;
@@ -107,7 +107,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   margin-bottom: 60px;
 }
 .offering-title {
-  font-size: 1.9em;
+  font-size: 1.8em;
   color: black;
   margin: 0px auto;
   margin-bottom: 30px;
@@ -268,7 +268,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   margin-bottom: 60px;
 }
 #contact-form h1 {
-  font-size: 2.5em;
+  font-size: 2.0em;
   font-weight: 300;
   text-align: center;
 
@@ -431,7 +431,7 @@ blockquote {
 **************/
 .resume h1 {
   text-align: center;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px rgb(18, 103, 53);
   width: 90%;
   margin: 0 auto;
   padding-bottom: 10px;
@@ -444,7 +444,7 @@ blockquote {
 .resume h2 {
   clear: both;
   margin: 10px 0;
-  border-bottom: 2px dotted orange;
+  border-bottom: 2px dotted rgb(18, 103, 53);
   width: 95%;
 }
 .resume_job_item{
@@ -502,7 +502,7 @@ blockquote {
 }
 @media screen and (min-width: 600px) {
   .resume #primary-column {
-    border-right: 2px dotted orange;
+    border-right: 2px dotted rgb(18, 103, 53);
     padding-right: 5px;
   }
 }
@@ -512,7 +512,7 @@ blockquote {
     font-size: .7em;
   }
   .resume #primary-column {
-    border-right: 2px dotted orange;
+    border-right: 2px dotted rgb(18, 103, 53);
     padding-right: 5px;
   }
   .resume .wrapper {
@@ -554,7 +554,7 @@ blockquote {
 http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 **********/
 .button {
-  border: 2px solid darkorange;
+  border: 2px solid rgb(18, 103, 53);
 	padding: 8px 20px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -563,7 +563,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
   background-color: white;
-  color: darkorange;
+  color: rgb(18, 103, 53);
   display: block;
   clear: left;
   font-size: .9em;
@@ -572,7 +572,8 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
 .button:hover,
 .button:active {
 	color: white;
-	background: orange;
+	background: #85CD75;
+  border: 2px solid #85CD75;
 }
 /*************
 ** Footer
@@ -604,7 +605,7 @@ http://tympanus.net/codrops/2013/06/13/creative-button-styles/ (download source)
     max-width: 1000px;
   }
   a.page-link:hover {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px rgb(18, 103, 53);
   }
   .landing_page a.page-link:hover {
     border-bottom: 3px solid white;

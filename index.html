@@ -11,10 +11,12 @@ owner: Shane Kercheval
 {% include master.svg %}
 
 <div class="home">
-  <h1>
+  <!-- <h1>
     {{ site.data.value.intro.header }}
-  </h1>
-  <p class="description">{{ site.data.value.intro.description }} <span class="offering-explanation">{{ site.data.value.intro.offering }}</span></p>
+  </h1> -->
+  <p class="description">{{ site.data.value.intro.description }} 
+  <!-- <span class="offering-explanation">{{ site.data.value.intro.offering }}</span> -->
+  </p>
   <div id=offering-container>
     {% for offering in offerings %}
       <div id="offering{{ forloop.index }}" class="offerings">
@@ -48,7 +50,7 @@ owner: Shane Kercheval
         {% endfor %}
       </ul>
   </div>
-  <div class="skills">
+  <!-- <div class="skills">
     <h1>Skills</h1>
     <ul class="boxlist">
       {% for skill in skills %}
@@ -58,6 +60,6 @@ owner: Shane Kercheval
         </li>
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
   {% include contact-form.html %}
 </div>

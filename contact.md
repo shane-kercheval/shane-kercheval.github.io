@@ -9,7 +9,7 @@ include_in_nav: true
 <div id="contact_page">
   <div id="primary-column"> <!-- sections break up a page into logical groupings of information -->
     <h3>General Information</h3>
-    <img src="{{ site.url }}{{ siteInfo.image }}" alt="{{ siteInfo.image_alt }}" class="profile-photo">
+    <!-- <img src="{{ site.url }}{{ siteInfo.image }}" alt="{{ siteInfo.image_alt }}" class="profile-photo"> -->
 
     {% assign sentences = site.data.contacts['shanekercheval'].bio | split:'.' %}
     {% for sentence in sentences %}
