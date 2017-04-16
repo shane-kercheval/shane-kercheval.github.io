@@ -67,6 +67,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
   font-size: 2.5em;
   font-weight: 300;
   text-align: center;
+  margin-top: 40px;
 }
 .page-link {
   font-size: 1.2em;
