@@ -11,8 +11,8 @@ $(document).ready(function(e){
 /********************
 **  /blogs
 *********************/
-  var linkColor = "darkorange";
-  var linkColorClicked = "#00ACFF";
+  var linkColor = "#126735";
+  var linkColorClicked = "#85CD75";
 
   function resetLinkColors(){
     $(".page_numbers .page").css("color", linkColor);//set link color of all pages to default

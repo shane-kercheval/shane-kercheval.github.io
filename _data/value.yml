@@ -1,38 +1,37 @@
 intro:
     header: Most Startups Fail.
-    description: Starting a startup is difficult. You might have a great idea, but identifying all the possible risks and challenges is either overlooked or overwhelming.
+    description: I'm a software engineer turned marketer turned data nerd. Currently working for Auth0 in growth and data analytics. I'm very curious in general and love to learn.
     offering: I help entrepreneurs build a strategy that decreases risk and uncovers opportunities, by offering the following services.
 
 offerings:
-  - name: Strategy Consulting
+  - name: Data Proficiencies
     value:
-      - title: Strategy & Objectives
-        description: Strategy involves understanding options, making decisions, and developing milestones and objectives; and then continually optimizing those objectives.
-        icon: icon-checkbox-checked
-      - title: Assumption Identification
-        description: Identifying business model assumptions is often overlooked, despite being critical to success. Together, we will highlight risks and assumptions.
-        icon: icon-notification
-      - title: Metrics and Measurement
-        description: Choosing the right metrics is critical to making data-driven decisions and continuous optimization. I help entrepreneurs measure and improve.
-        icon: icon-pie-chart
-      - title: Leadership and Execution
-        description: A great idea poorly executed is worse than a bad idea executed brilliantly. I help remove the numerous barriers to exceptional execution.
-        icon: icon-users
-  - name: Tactics Consulting
-    value:
-      - title: Forecasting & ROI Analysis
-        description: A great strategy executed to perfection can still fail miserably if financial expectations aren’t realistic or are not forecasted correctly.
-        icon: icon-stats-dots
-      - title: Marketing and Analytics
-        description: Marketing is simply understanding the needs/pains of your target market and then describing your value proposition in a way that resonates with them.
+      - title: Data Analysis
+        description: Inspect, cleanse, and wrangle data; discover actionable information and patterns; communicating solutions that support business and marketing strategy.
         icon: icon-rocket
-      - title: Customer Acquisition
-        description: Your target market won’t know your product exists just because you have a great idea and website. You still need to go out and find customers.
-        icon: icon-spinner10
-      - title: Static Website Development
-        description: A website legitimizes your product/service and allows you to explain your value proposition. It also enables you to collect data via analytics and email collection tactics.
+      - title: Software Engineering
+        description: Experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
+        icon: icon-cogs
+      - title: Statistics and Machine Learning
+        description: Strong understanding of statistical concepts including p-value, statistical tests, distributions, data collection and sampling techniques.
+        icon: icon-stats-dots
+      - title: A/B Testing
+        description: Running experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
+        icon: icon-checkbox-checked
+  - name: Technical Proficiencies
+    value:
+      - title: R Language
+        description: One of the most popular languages for data analysis and machine learning. Familiar with popular packages such as ggplot, dplyr, tidyr, caret, etc. that streamline analysis.
+        icon: icon-pie-chart
+      - title: SQL
+        description: Data is often stored in databases like MS SQL Server or Amazon Redshift and has to be retrieve before it is analyzed. SQL is often the language used for retrieval.
+        icon: icon-stats-bars
+      - title: General Tools
+        description: Ability to quickly come up to speed and become proficient in many different tools and programming languages.
         icon: icon-hammer
-
+      - title: Misc.
+        description: Python; C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager; Balsamiq Mockups
+        icon: icon-spinner10
 testimonials:
   - name: JC Conrad
     position: Founder / CEO
