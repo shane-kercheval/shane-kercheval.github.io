@@ -10,7 +10,7 @@ offerings:
         description: Inspect, cleanse, and wrangle data; discover actionable information and patterns; communicating solutions that support business and marketing strategy.
         icon: icon-rocket
       - title: Software Engineering
-        description: Experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
+        description: Professional experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
         icon: icon-cogs
       - title: Statistics and Machine Learning
         description: Strong understanding of statistical concepts including p-value, statistical tests, distributions, data collection and sampling techniques.
@@ -27,7 +27,7 @@ offerings:
         description: Data is often stored in databases like MS SQL Server or Amazon Redshift and has to be retrieve before it is analyzed. SQL is often the language used for retrieval.
         icon: icon-stats-bars
       - title: General Tools
-        description: Ability to quickly come up to speed and become proficient in many different tools and programming languages.
+        description: Demonstrated ability to quickly come up to speed and become proficient in many different tools and programming languages.
         icon: icon-hammer
       - title: Misc.
         description: Python; C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager; Balsamiq Mockups
