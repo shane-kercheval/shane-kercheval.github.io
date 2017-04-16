@@ -20,7 +20,7 @@ offerings:
         icon: icon-checkbox-checked
   - name: Technical Proficiencies
     value:
-      - title: R
+      - title: R Language
         description: One of the most popular languages for data analysis and machine learning. Familiar with popular packages such as ggplot, dplyr, tidyr, caret, etc. that streamline analysis.
         icon: icon-pie-chart
       - title: SQL
