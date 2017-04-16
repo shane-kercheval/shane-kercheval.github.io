@@ -13,10 +13,10 @@ offerings:
         description: Professional experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
         icon: icon-cogs
       - title: Statistics and Machine Learning
-        description: Strong understanding of statistical concepts including p-value, statistical tests, distributions, data collection and sampling techniques.
+        description: Strong understanding of statistical/machine-learning concepts including p-value, tests, distributions, predictive modeling, clustering, and more.
         icon: icon-stats-dots
       - title: A/B Testing
-        description: Running experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
+        description: Running statistical experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
         icon: icon-checkbox-checked
   - name: Technical Proficiencies
     value:
@@ -27,7 +27,7 @@ offerings:
         description: Data is often stored in databases like MS SQL Server or Amazon Redshift and has to be retrieve before it is analyzed. SQL is often the language used for retrieval.
         icon: icon-stats-bars
       - title: General Tools
-        description: Demonstrated ability to quickly come up to speed and become proficient in many different tools and programming languages.
+        description: Demonstrated ability to quickly come up to speed and become proficient in many different tools, programming languages, and techniques.
         icon: icon-hammer
       - title: Misc.
         description: Python; C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager; Balsamiq Mockups
