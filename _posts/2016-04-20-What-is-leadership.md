@@ -8,6 +8,7 @@ thumbnail: /img/blog/what-is-leadership.jpg
 thumbnail_width: 325
 thumbnail_height: 325
 ---
+
 Someone recently asked me to define leadership... and I struggled to produce a coherent sequence of sentences.
 
 Part of the reason leadership is so hard to define is that it's situational. Different situations call for different leadership styles. Not only that, but you can have two completely different people with no seemingly significant overlap in qualities who both turn out to be awesome leaders.
