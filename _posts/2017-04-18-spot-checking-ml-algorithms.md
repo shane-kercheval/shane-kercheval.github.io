@@ -2,13 +2,13 @@
 title: "Spot-checking Machine Learning Algorithms"
 date: 2017-04-18 06:00:00 -0800
 categories: machine-learning
-excerpt: Someone recently asked me to define leadership... and I struggled to produce a coherent sequence of sentences.
+excerpt: The 'spot-check' approach is a great method for quickly finding a handful of ML models that have the best predictive potential, for a given dataset.
 keywords: machine-learning, statistics
 ---
 
 **GitHub Project**: [r-predictive-analysis-template](https://github.com/shane-kercheval/r-predictive-analysis-template)
 
-The main objective of this project is for finding the best potential predictive models for a given dataset, using a shotgun approach of trying many different models with reasonable defaults.
+The main objective of this project is for finding the best potential predictive models for a given dataset, using a shotgun (i.e. spot-check) approach of trying many different models with reasonable defaults.
 
 The intent is not to skip the thinking process, but to get a lot of information in a relatively short amount of time.
 
