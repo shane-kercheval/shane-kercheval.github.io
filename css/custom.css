@@ -135,7 +135,7 @@ a:hover { /* any nav link (a) that has the class selected will get these attribu
 	fill: #424242;
 }
 #offering-container {
-  margin: 60px 0px;
+  margin: 60px 0px 0px 0px;
   display: block;
   clear: both;
   overflow-x: hidden;

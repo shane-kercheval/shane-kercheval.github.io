@@ -1,7 +1,6 @@
 intro:
-    header: Data Wrangler.
-    description: I'm a software engineer turned marketer turned data nerd. Currently working for Auth0 in growth and data analytics. I'm very curious in general and love to learn.
-    offering: I help entrepreneurs build a strategy that decreases risk and uncovers opportunities, by offering the following services.
+    header: Data Nerd.
+    description: I'm a software developer turned marketer turned data nerd. Currently doing data analysis and machine learning for Auth0's Growth department. I'm very curious in general and love to learn.
 
 offerings:
   - name: Data Proficiencies
@@ -13,30 +12,35 @@ offerings:
         description: Professional experience developing software using a variety of languages; strong understanding of writing maintainable code using best practices and patterns.
         icon: icon-cogs
       - title: Statistics and Machine Learning
-        description: Strong understanding of statistical/machine-learning concepts including p-value, tests, distributions, predictive modeling, clustering, and more.
+        description: Strong practical understanding of statistical and machine-learning techniques and ability to implement solutions in R and Python.
         icon: icon-stats-dots
       - title: A/B Testing
         description: Running statistical experiments on websites/apps to produce data-driven decisions that lead to increase in customer value and conversion rates.
         icon: icon-checkbox-checked
   - name: Technical Proficiencies
     value:
-      - title: R Language
-        description: One of the most popular languages for data analysis and machine learning. Familiar with popular packages such as ggplot, dplyr, tidyr, caret, etc. that streamline analysis.
-        icon: icon-pie-chart
+      - title: R & Shiny
+        description: R is a powerful language for data & statistical analysis. Shiny is a framework that makes it possible to create web-apps in R.
+        icon: r-language
+      - title: Python
+        description: Python is one of the most popular languages in general, but also for data analysis and machine learning.
+        icon: python-language
       - title: SQL
         description: Data is often stored in databases like MS SQL Server or Amazon Redshift and has to be retrieve before it is analyzed. SQL is often the language used for retrieval.
         icon: icon-stats-bars
-      - title: General Tools
-        description: Demonstrated ability to quickly come up to speed and become proficient in many different tools, programming languages, and techniques.
-        icon: icon-hammer
       - title: Misc.
-        description: Python; C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager; Balsamiq Mockups
+        description: C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager
         icon: icon-spinner10
-testimonials:
-  - name: JC Conrad
-    position: Founder / CEO
-    company: GoDirect Foods
-    testimonial: I have been working with Shane Kercheval for about a year now. Shane understands business, strategy and what it’s going to take to make a business successful. He will look at every angle and will come back to you and tell you things that you don’t want to hear; he’s going to tell you his honest opinion on what needs to be enhanced, changed, or deleted from your business plan. Now as I look back almost a year later, the value that I received from Shane is worth way more then I think he even realizes. Thanks Shane for helping GoDirect Foods start on the right track.
+projects:
+  - name: Python Machine Learning Library
+    description: An object-oriented python library that makes it easy to use, evalulate, and search for machine learning algos.
+    link: https://github.com/shane-kercheval/oo-learning
+  - name: Shiny App for Exploring Datasets
+    description: "test"
+    link: https://kercheval.shinyapps.io/shiny-explore-dataset/
+  - name: Shiny App for Exploring Time Series Datasets
+    description: "test"
+    link: https://kercheval.shinyapps.io/shiny-explore-time-series/
 
 skills:
   - name: GitHub

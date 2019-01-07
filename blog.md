@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
-include_in_nav: true
+include_in_nav: false
 ---
 <div class="home">
 
