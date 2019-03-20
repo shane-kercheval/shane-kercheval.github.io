@@ -31,25 +31,22 @@ offerings:
       - title: Misc.
         description: C#; Java; Regular Expressions; JavaScript/JQuery; MS SQL Server; Redshift; Excel; Domo; Google Analytics & Tag Manager
         icon: icon-spinner10
+
 projects:
   - name: Python Machine Learning Library
     description: An object-oriented python library that makes it easy to use, evalulate, and search for machine learning algos.
     link: https://github.com/shane-kercheval/oo-learning
+  - name: Shiny App for Analyzing A/B Test Data
+    description: This shiny app is an example of an A/B test dashboard that uses both frequentist and bayesian methods.
+    link: https://kercheval.shinyapps.io/shiny-ab-testing/
   - name: Shiny App for Exploring Datasets
-    description: "test"
+    description: This app allows the user to upload .csv or .RDS data to slice and dice the data in vaarious ways.
     link: https://kercheval.shinyapps.io/shiny-explore-dataset/
   - name: Shiny App for Exploring Time Series Datasets
-    description: "test"
+    description: This app allows the user to upload .RDS files containing time-series datasets and gives the user the ability to perform various time-series analysis techniques.
     link: https://kercheval.shinyapps.io/shiny-explore-time-series/
 
-skills:
-  - name: GitHub
-    description: 
-  - name: ShaneKercheval (Twitter)
-    description: http://twitter.com/intent/tweet?screen_name=@ShaneKercheval
-  - name: LinkedIn
-    description: 
-  - name: sik@boun.cr (email)
-    description: mailto:sik@boun.cr
-  - name: Resume
-    description: 
+posts:
+  - name: A/B Tests, Diminishing Lift, & Attribution Windows
+    description:  What effect does an attribution window have on the results of an experiment?
+    link: https://github.com/shane-kercheval/misc-projects/blob/master/attribution-window-effects/attribution-window-simulation.md
