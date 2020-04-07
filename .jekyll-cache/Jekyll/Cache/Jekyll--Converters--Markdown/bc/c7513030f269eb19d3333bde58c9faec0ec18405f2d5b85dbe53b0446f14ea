@@ -1,0 +1,31 @@
+I"�	<p>Want people to tweet your message simply by clicking a link? Don’t want to sign up for a service? DIY and follow these 3 steps.</p>
+
+<ol>
+  <li>write the message that you would like to be tweeted</li>
+  <li>use a <a href="http://meyerweb.com/eric/tools/dencoder/">URL Decoder/Encoder</a> to turn your message into a encoded URL which you will use in step 3 (it’s easy, just click a button)</li>
+  <li>use Twitter’s <a href="https://dev.twitter.com/web/tweet-button">developers</a> URL <a href="https://twitter.com/intent/tweet?text=Hello%20world">https://twitter.com/intent/tweet?text=Hello%20world</a> and replace “Hello%20world” with the encoded URL from step 2 … DONE!</li>
+</ol>
+
+<p>You can also use <a href="http://bit.ly/">http://bit.ly</a> if you want to shorten the URL and/or capture basic analytics! For example.</p>
+
+<ul>
+  <li>The message I want people to be able to click to tweet is: “Want people to tweet your message simply by clicking a link? Don’t want to sign up for a service? DIY Click to Tweet. <a href="http://bit.ly/1DqSTaC">http://bit.ly/1DqSTaC</a>”</li>
+  <li>Run it through the decoder in step 2 and get:</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"Want%20people%20to%20tweet%20your%20message%20simply%20by%20clicking%20a%20link%3F%20Don%27t%20want%20to%20sign%20up%20for%20a%20service%3F%20DIY%20Click%20to%20Tweet.%20http%3A%2F%2Fbit.ly%2F1DqSTaC"
+</code></pre></div></div>
+
+<ul>
+  <li>Combine Twitter’s tweet URL from step 3 and your encoded text from step 2 to get the following (click <a href="https://twitter.com/intent/tweet?text=Want%20people%20to%20tweet%20your%20message%20simply%20by%20clicking%20a%20link%3F%20Don%27t%20want%20to%20sign%20up%20for%20a%20service%3F%20DIY%20Click%20to%20Tweet%20http%3A%2F%2Fbit.ly%2F1DqSTaC">here</a> test it out)</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://twitter.com/intent/tweet?text=Want%20people%20to%20tweet%20your%20message%20simply%20by%20clicking%20a%20link%3F%20Don%27t%20want%20to%20sign%20up%20for%20a%20service%3F%20DIY%20Click%20to%20Tweet%20http%3A%2F%2Fbit.ly%2F1DqSTaC
+</code></pre></div></div>
+
+<ul>
+  <li>Use bit.ly to shorten link and add basic analytics and the final result is: <a href="http://bit.ly/1SJlsqM">http://bit.ly/1SJlsqM</a></li>
+</ul>
+
+<p>If this was helpful, <a href="http://bit.ly/1SJlsqM">share with a tweet</a> :)</p>
+:ET

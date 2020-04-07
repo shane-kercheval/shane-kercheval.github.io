@@ -1,0 +1,473 @@
+I"fa<div class="home">
+
+    <section id="blogs">
+        <h1 class="page-heading">Posts</h1>   
+        <ul class="post-list" posts_per_page="5">
+            
+                <li categories="machine-learning" index_number="1">
+                    <span class="post-meta">Apr 18, 2017</span>
+                    <h2>
+                        <a class="post-link" href="/blog/spot-checking-ml-algorithms/">Spot-checking Machine Learning Algorithms</a>
+                    </h2>
+                    <p class="post-excerpt">The 'spot-check' approach is a great method for quickly finding a handful of ML models that have the best predictive potential, for a given dataset.</p>
+                    <a href="/blog/spot-checking-ml-algorithms/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="leadership strategy" index_number="2">
+                    <span class="post-meta">Apr 20, 2016</span>
+                    <h2>
+                        <a class="post-link" href="/blog/What-is-leadership/">What is Leadership</a>
+                    </h2>
+                    <p class="post-excerpt">Someone recently asked me to define leadership... and I struggled to produce a coherent sequence of sentences.</p>
+                    <a href="/blog/What-is-leadership/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="failing strategy" index_number="3">
+                    <span class="post-meta">Dec 27, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/why-some-businesses-fail/">Why Some Businesses Fail</a>
+                    </h2>
+                    <p class="post-excerpt">Companies fail for all sorts of reasons. Here are the top.</p>
+                    <a href="/blog/why-some-businesses-fail/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="legal" index_number="4">
+                    <span class="post-meta">Dec 26, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/why-i-dont-sign-ndas/">Why I Don't Sign NDAs</a>
+                    </h2>
+                    <p class="post-excerpt">Here's a few reasons why I don't sign NDAs when people pitch me ideas.</p>
+                    <a href="/blog/why-i-dont-sign-ndas/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="templates strategy" index_number="5">
+                    <span class="post-meta">Dec 24, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/a-concise-business-plan-template/">A Concise Business Plan Template</a>
+                    </h2>
+                    <p class="post-excerpt">There are plenty of in-depth articles and books that show you how to develop a business plan. But sometimes the short and sweet version is all that's needed.</p>
+                    <a href="/blog/a-concise-business-plan-template/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="jekyll blogging" index_number="6">
+                    <span class="post-meta">Dec 22, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/why-i-moved-from-wordpress-to-jekyll/">Why I Moved From WordPress to Jekyll</a>
+                    </h2>
+                    <p class="post-excerpt">There are pros and cons to both tools, but I have no regrets about my move to Jekyll.</p>
+                    <a href="/blog/why-i-moved-from-wordpress-to-jekyll/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="hypotheses decisions" index_number="7">
+                    <span class="post-meta">Oct 13, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/how-to-form-a-hypothesis/">How to Form Hypotheses (and why you should care)</a>
+                    </h2>
+                    <p class="post-excerpt">We subconsciously use hypotheses everyday. A hypothesis is simply the identification of a particular assumption, and the prediction of the expected outcome. Sound complicated? It isn't. All types of decisions have implicit assumptions and hypotheses behind them.</p>
+                    <a href="/blog/how-to-form-a-hypothesis/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="social_media hacks" index_number="8">
+                    <span class="post-meta">Aug 4, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/diy-click-to-tweet/">DIY Click to Tweet</a>
+                    </h2>
+                    <p class="post-excerpt">Want people to tweet your message simply by clicking a link? Don't want to sign up for a service? DIY and follow these 3 steps.</p>
+                    <a href="/blog/diy-click-to-tweet/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="strategy ideas lean" index_number="9">
+                    <span class="post-meta">Jun 28, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/determine-idea-assumptions-and-next-steps/">Validating an Idea</a>
+                    </h2>
+                    <p class="post-excerpt">Let's say you come up with a great idea; the next big product or service. How do you know what the next steps should be?</p>
+                    <a href="/blog/determine-idea-assumptions-and-next-steps/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="strategy ideas decisions" index_number="10">
+                    <span class="post-meta">Jun 21, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/ideafounder-fit/">Idea/Founder Fit</a>
+                    </h2>
+                    <p class="post-excerpt">Ideas are easy. Anyone can come up with an idea. But not everyone can execute.</p>
+                    <a href="/blog/ideafounder-fit/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="hacks" index_number="11">
+                    <span class="post-meta">Jun 21, 2015</span>
+                    <h2>
+                        <a class="post-link" href="/blog/edit-any-webpage-on-the-fly/">Edit Any Webpage on the Fly</a>
+                    </h2>
+                    <p class="post-excerpt">Sometimes I just want to click on some text on a website and start editing away. So I do. For example, when I'm with a client and I want to demonstrate how they can improve the copy on their website, rather than just telling them, I can show them by editing their website on the fly. It always grabs their attention, even though it is a very simple trick.</p>
+                    <a href="/blog/edit-any-webpage-on-the-fly/" target="_blank" class="button">Read More</a>
+                </li>
+            
+                <li categories="lean execution" index_number="12">
+                    <span class="post-meta">Mar 3, 2014</span>
+                    <h2>
+                        <a class="post-link" href="/blog/kanban-vs-scrum-pull-vs-push/">Kanban vs. Scrum - Pull vs. Push</a>
+                    </h2>
+                    <p class="post-excerpt">What makes a particular software development methodology a push or pull system is simply how the development team handles the inventory/scheduling of stories.</p>
+                    <a href="/blog/kanban-vs-scrum-pull-vs-push/" target="_blank" class="button">Read More</a>
+                </li>
+            
+        </ul>
+        <span class="page_numbers"></span>
+    </section>
+
+    <section id="blog-info">
+        <h1 class="page-heading">Categories</h1>
+        <!--http://stackoverflow.com/questions/20945944/jekyll-liquid-output-category-list-with-post-count-->
+        <ul class="category-list">
+              
+            
+                
+                    <li><a href="">Blogging <span>(1)</span></a></li>
+                
+                    <li><a href="">Decisions <span>(2)</span></a></li>
+                
+                    <li><a href="">Execution <span>(1)</span></a></li>
+                
+                    <li><a href="">Failing <span>(1)</span></a></li>
+                
+                    <li><a href="">Hacks <span>(2)</span></a></li>
+                
+                    <li><a href="">Hypotheses <span>(1)</span></a></li>
+                
+                    <li><a href="">Ideas <span>(2)</span></a></li>
+                
+                    <li><a href="">Jekyll <span>(1)</span></a></li>
+                
+                    <li><a href="">Leadership <span>(1)</span></a></li>
+                
+                    <li><a href="">Lean <span>(2)</span></a></li>
+                
+                    <li><a href="">Legal <span>(1)</span></a></li>
+                
+                    <li><a href="">Machine-learning <span>(1)</span></a></li>
+                
+                    <li><a href="">Social_media <span>(1)</span></a></li>
+                
+                    <li><a href="">Strategy <span>(5)</span></a></li>
+                
+                    <li><a href="">Templates <span>(1)</span></a></li>
+                
+            
+            
+
+            <li id="show-all"><a href="" style="font-style:italic">Show All</a></li>
+        </ul>
+
+        <span class="page_numbers"></span>
+        <p id="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+    </section>
+            <!-- didn't need this code, but would like to keep it: http://stackoverflow.com/questions/20945944/jekyll-liquid-output-category-list-with-post-count
+        
+            <h2 id="lean" style="display: none">Lean</h2>
+            <ul class="post-by-category lean" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Validating an Idea</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/determine-idea-assumptions-and-next-steps/">Validating an Idea<span class="entry-date"><time datetime="2015-06-28T00:28:39-07:00" itemprop="datePublished">June 28, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Kanban vs. Scrum - Pull vs. Push</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/kanban-vs-scrum-pull-vs-push/">Kanban vs. Scrum - Pull vs. Push<span class="entry-date"><time datetime="2014-03-03T00:25:31-08:00" itemprop="datePublished">March 03, 2014</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="execution" style="display: none">Execution</h2>
+            <ul class="post-by-category execution" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Kanban vs. Scrum - Pull vs. Push</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/kanban-vs-scrum-pull-vs-push/">Kanban vs. Scrum - Pull vs. Push<span class="entry-date"><time datetime="2014-03-03T00:25:31-08:00" itemprop="datePublished">March 03, 2014</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="hacks" style="display: none">Hacks</h2>
+            <ul class="post-by-category hacks" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">DIY Click to Tweet</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/diy-click-to-tweet/">DIY Click to Tweet<span class="entry-date"><time datetime="2015-08-04T11:06:49-07:00" itemprop="datePublished">August 04, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Edit Any Webpage on the Fly</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/edit-any-webpage-on-the-fly/">Edit Any Webpage on the Fly<span class="entry-date"><time datetime="2015-06-21T23:13:00-07:00" itemprop="datePublished">June 21, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="strategy" style="display: none">Strategy</h2>
+            <ul class="post-by-category strategy" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">What is Leadership</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/What-is-leadership/">What is Leadership<span class="entry-date"><time datetime="2016-04-20T07:00:00-07:00" itemprop="datePublished">April 20, 2016</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Why Some Businesses Fail</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/why-some-businesses-fail/">Why Some Businesses Fail<span class="entry-date"><time datetime="2015-12-27T06:00:00-08:00" itemprop="datePublished">December 27, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">A Concise Business Plan Template</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/a-concise-business-plan-template/">A Concise Business Plan Template<span class="entry-date"><time datetime="2015-12-24T08:00:00-08:00" itemprop="datePublished">December 24, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Validating an Idea</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/determine-idea-assumptions-and-next-steps/">Validating an Idea<span class="entry-date"><time datetime="2015-06-28T00:28:39-07:00" itemprop="datePublished">June 28, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Idea/Founder Fit</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/ideafounder-fit/">Idea/Founder Fit<span class="entry-date"><time datetime="2015-06-21T23:53:06-07:00" itemprop="datePublished">June 21, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="ideas" style="display: none">Ideas</h2>
+            <ul class="post-by-category ideas" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Validating an Idea</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/determine-idea-assumptions-and-next-steps/">Validating an Idea<span class="entry-date"><time datetime="2015-06-28T00:28:39-07:00" itemprop="datePublished">June 28, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Idea/Founder Fit</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/ideafounder-fit/">Idea/Founder Fit<span class="entry-date"><time datetime="2015-06-21T23:53:06-07:00" itemprop="datePublished">June 21, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="decisions" style="display: none">Decisions</h2>
+            <ul class="post-by-category decisions" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">How to Form Hypotheses (and why you should care)</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/how-to-form-a-hypothesis/">How to Form Hypotheses (and why you should care)<span class="entry-date"><time datetime="2015-10-13T12:54:34-07:00" itemprop="datePublished">October 13, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Idea/Founder Fit</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/ideafounder-fit/">Idea/Founder Fit<span class="entry-date"><time datetime="2015-06-21T23:53:06-07:00" itemprop="datePublished">June 21, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="social_media" style="display: none">Social_media</h2>
+            <ul class="post-by-category social_media" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">DIY Click to Tweet</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/diy-click-to-tweet/">DIY Click to Tweet<span class="entry-date"><time datetime="2015-08-04T11:06:49-07:00" itemprop="datePublished">August 04, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="hypotheses" style="display: none">Hypotheses</h2>
+            <ul class="post-by-category hypotheses" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">How to Form Hypotheses (and why you should care)</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/how-to-form-a-hypothesis/">How to Form Hypotheses (and why you should care)<span class="entry-date"><time datetime="2015-10-13T12:54:34-07:00" itemprop="datePublished">October 13, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="jekyll" style="display: none">Jekyll</h2>
+            <ul class="post-by-category jekyll" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Why I Moved From WordPress to Jekyll</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/why-i-moved-from-wordpress-to-jekyll/">Why I Moved From WordPress to Jekyll<span class="entry-date"><time datetime="2015-12-22T12:00:00-08:00" itemprop="datePublished">December 22, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="blogging" style="display: none">Blogging</h2>
+            <ul class="post-by-category blogging" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Why I Moved From WordPress to Jekyll</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/why-i-moved-from-wordpress-to-jekyll/">Why I Moved From WordPress to Jekyll<span class="entry-date"><time datetime="2015-12-22T12:00:00-08:00" itemprop="datePublished">December 22, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="templates" style="display: none">Templates</h2>
+            <ul class="post-by-category templates" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">A Concise Business Plan Template</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/a-concise-business-plan-template/">A Concise Business Plan Template<span class="entry-date"><time datetime="2015-12-24T08:00:00-08:00" itemprop="datePublished">December 24, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="legal" style="display: none">Legal</h2>
+            <ul class="post-by-category legal" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Why I Don't Sign NDAs</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/why-i-dont-sign-ndas/">Why I Don't Sign NDAs<span class="entry-date"><time datetime="2015-12-26T05:00:00-08:00" itemprop="datePublished">December 26, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="failing" style="display: none">Failing</h2>
+            <ul class="post-by-category failing" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Why Some Businesses Fail</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/why-some-businesses-fail/">Why Some Businesses Fail<span class="entry-date"><time datetime="2015-12-27T06:00:00-08:00" itemprop="datePublished">December 27, 2015</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="leadership" style="display: none">Leadership</h2>
+            <ul class="post-by-category leadership" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">What is Leadership</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/What-is-leadership/">What is Leadership<span class="entry-date"><time datetime="2016-04-20T07:00:00-07:00" itemprop="datePublished">April 20, 2016</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+            <h2 id="machine-learning" style="display: none">Machine-learning</h2>
+            <ul class="post-by-category machine-learning" style="display: none">
+                  
+                
+                    
+                        
+                            <li><a href="http://localhost:4000/blog">Spot-checking Machine Learning Algorithms</a></li>
+                        <!--<li><a href="http://localhost:4000/blog/spot-checking-ml-algorithms/">Spot-checking Machine Learning Algorithms<span class="entry-date"><time datetime="2017-04-18T07:00:00-07:00" itemprop="datePublished">April 18, 2017</time></span></a>
+                            </li>
+                        
+                    
+                
+                
+                
+            </ul>
+        
+        -->
+</div>
+:ET

@@ -1,8 +1,8 @@
 # Site settings
-title: Data Nerd
+title: Data Scientist
 owner: Shane Kercheval
 description: > # this means to ignore newlines
-    Data Nerd, Marketing Strategist, Software Engineer, Learner for Life.
+    Data Scientist, Software Engineer, Continuous Learner.
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
 url: "http://shanekercheval.me" # the base hostname & protocol for your site

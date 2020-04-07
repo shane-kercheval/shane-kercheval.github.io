@@ -1,0 +1,36 @@
+I"™<p><strong>GitHub Project</strong>: <a href="https://github.com/shane-kercheval/r-predictive-analysis-template">r-predictive-analysis-template</a></p>
+
+<p>The main objective of this project is for finding the best potential predictive models for a given dataset, using a shotgun (i.e. spot-check) approach of trying many different models with reasonable defaults.</p>
+
+<p>The intent is not to skip the thinking process, but to get a lot of information in a relatively short amount of time.</p>
+
+<p>The information will help determine which potential models are worth spending time on and further optimizing/improving.</p>
+
+<p>There are two types projects, regression and classification.</p>
+
+<p>The regression code can be found <a href="https://github.com/shane-kercheval/r-predictive-analysis-template/blob/master/predictive_analysis_regression.Rmd">here</a>, the classification code is TBD.</p>
+
+<hr />
+
+<p>The following plots show the main outputs for the regression analysis.</p>
+
+<ul>
+  <li><strong>shotgun approach</strong>: plot showing cross-validated <code class="highlighter-rouge">RMSE</code> and <code class="highlighter-rouge">R-Squared</code> for a variety of models (with reasonable defaults) training on a training set.
+    <ul>
+      <li>For example:</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="http://localhost:4000/img/blog/resamples_regression-1.png" alt="spot_check" /></p>
+
+<ul>
+  <li><strong>final models</strong>: plot showing <code class="highlighter-rouge">RMSE</code>, <code class="highlighter-rouge">MAE</code>, and <code class="highlighter-rouge">correlation</code> on the top x (e.g. 5) models that have been retrained on the entire training set (as oppossed to cross-validated), and the tested on the test set (data-points that the model has not seen).
+    <ul>
+      <li>For example:</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="http://localhost:4000/img/blog/determine_best_models-32.png" alt="final_models" /></p>
+:ET

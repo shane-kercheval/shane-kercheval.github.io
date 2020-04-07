@@ -1,0 +1,73 @@
+I"D<h1 id="tldr">tl;dr</h1>
+
+<ul>
+  <li>using Jekyll is easier/faster
+    <ul>
+      <li>customizing text format using markdown is significantly better</li>
+      <li>customizing the look/feel/functionality of the site is a lot easier</li>
+      <li>Jekyll is well-documented</li>
+    </ul>
+  </li>
+  <li>Jekyll is lightweight
+    <ul>
+      <li>WordPress is slow</li>
+      <li>ever try to move your WordPress site?</li>
+    </ul>
+  </li>
+  <li>hosting a Jekyll site is free with GitHub Pages!!</li>
+</ul>
+
+<p><br />
+<a href="http://jekyllrb.com/" target="\_blank">Jekyll</a> is a tool used to build static, custom websites and blogs. Unlike WordPress, which is a content management system, Jekyll is more of an engine or generator that takes your markdown files, templates, etc., and generates the necessarily HTML/CSS for you.</p>
+
+<blockquote>
+  <p><a href="https://twitter.com/intent/tweet?text=There%20are%20pros%20and%20cons%20to%20each%20tool%2C%20but%20I%20have%20no%20regrets%20in%20my%20move%20to%20Jekyll.%20http://localhost:4000/blog/why-i-moved-from-wordpress-to-jekyll/" target="\_blank"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"></path></svg>
+  There are pros and cons to each tool, but I have no regrets about my move to Jekyll.</a></p>
+</blockquote>
+
+<p>I first learned about Jekyll from browsing courses on <a href="https://teamtreehouse.com/" target="\_blank">TreeHouse</a>. They have few Jekyll intro courses (below) which I took out of curiosity. I immediately realized that Jekyll would be an excellent alternative to WordPress.</p>
+
+<ul>
+  <li><a href="https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages" target="\_blank">https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages</a></li>
+  <li><a href="https://teamtreehouse.com/library/create-a-jekyll-site-on-github" target="\_blank">https://teamtreehouse.com/library/create-a-jekyll-site-on-github</a></li>
+  <li><a href="https://teamtreehouse.com/library/jekyll-data-files" target="\_blank">https://teamtreehouse.com/library/jekyll-data-files</a></li>
+</ul>
+
+<p><strong>So why make the move from Wordpress?</strong></p>
+
+<h1 id="using-jekyll-is-easierfaster">Using Jekyll is Easier/Faster</h1>
+
+<p>Writing in markdown is way better than using the WordPress’s editor. Sure there is some <a href="http://assemble.io/docs/Cheatsheet-Markdown.html" target="\_blank">markdown syntax to learn</a>, but it is pretty straightforward and there are plenty of editors out there.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> I constantly ran into issues doing trivial things in WordPress (like creating a simple table).</p>
+
+<!--   customizing the look/feel/functionality of the site is a lot easier -->
+
+<p>I’ve also never found a WordPress theme that fit exactly what I wanted.</p>
+
+<p>Alternatively, Jekyll gives you a nice, minimal site to start. Anyone with some basic HTML/CSS/JavaScript skills can expand their website as much as they want. Also, Jekyll is very well <a href="http://jekyllrb.com/docs/home/" target="\_blank">documented</a>.</p>
+
+<p>Even with these skills, though, customizing WordPress themes is not intuitive. Some companies with simple static WordPress websites outsource their development, not because they don’t have the web skills, but because they don’t have the WordPress knowledge needed (and because it is a pain).</p>
+
+<p>I’ve spent considerable time trying to figure out how to do simple things in WordPress, only to give up in frustration.</p>
+
+<p>I will say, however, that Jekyll is probably most useful if you learn a little HTML, CSS, JavaScript, which you can do over at TreeHouse. But it isn’t required.</p>
+
+<h1 id="jekyll-is-lightweight">Jekyll is Lightweight</h1>
+
+<p>WordPress is slow… slow to load, slow to add content, slow to change.</p>
+
+<p>Also, ever try to move your WordPress site? WordPress uses <a href="https://codex.wordpress.org/Database_Description" target="\_blank">databases</a> to store info, Jekyll uses a simple file structure.</p>
+
+<h1 id="hosting-a-jekyll-site-is-free-with-github-pages">Hosting a Jekyll Site is Free with GitHub Pages!!</h1>
+
+<p>Hosting with GitHub Pages is free and easy and, of course, <a href="https://teamtreehouse.com/library/build-a-blog-with-jekyll-and-github-pages" target="\_blank">TreeHouse has a course</a> for getting it set up. GitHub also has <a href="https://pages.github.com" target="\_blank">good documentation</a>.</p>
+
+<p>Updating Jekyll via GitHub Pages requires Git, which isn’t difficult to learn, but isn’t as easy as logging on to WordPress. That said, the pros far outweigh the cons.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I use <a href="https://atom.io" target="\_blank">Atom</a> on OS X. You can preview what the markdown will look like. You can even put it in a pane and see the preview as you type. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

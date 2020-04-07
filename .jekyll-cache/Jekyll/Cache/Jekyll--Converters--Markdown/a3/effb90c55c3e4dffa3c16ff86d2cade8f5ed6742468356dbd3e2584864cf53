@@ -1,0 +1,61 @@
+I"<p>Let’s say you come up with a great idea; the next big product or service. <strong>How do you know what the next steps should be?</strong></p>
+
+<p>At a high-level, the next steps are to validate (or invalidate) all of the assumptions in the list below. You validate assumptions by running experiments that produce data which causes you to either reject or accept your hypotheses. <em>Note that even if you do validate your assumptions, the environment is continually changing (whether it is your product, other competitors, and/or people’s preferences) and you have to keep validating</em>.</p>
+
+<p><strong>The goal in the startup phase is to figure which assumptions should be validated first</strong>, which depends on where your confidence is, what data you have, and which assumptions you can validate the quickest and most inexpensively.</p>
+
+<h1 id="assumptions-to-validate">Assumptions to validate:</h1>
+
+<ul>
+  <li>you know who the customer for your idea is (and the end-user, if they are different people)</li>
+  <li>the customer/end-user has the problem you think he/she has</li>
+  <li>the customer/end-user has the problem, knows it’s solvable, and recognizes the benefits of solving problem (i.e. they recognize the value proposition)
+    <ul>
+      <li>The customer may not know they have the problem, or recognize the benefits of solving the problem. That’s ok, but it means that marketing will be more difficult, and as well as knowing exactly who to market to, and how to reach them.</li>
+    </ul>
+  </li>
+  <li>your solution solves the problem (or an explicit subset of the problem)
+    <ul>
+      <li>i.e. our value proposition (i.e. solution) = customers problem/benefits (or subset of) = customers understanding of problem</li>
+    </ul>
+  </li>
+  <li>the customer’s problem is possible to solve (for a reasonable amount of investment in time/money)
+    <ul>
+      <li>technically</li>
+      <li>legally</li>
+      <li>etc.</li>
+    </ul>
+  </li>
+  <li>you can solve the customer’s problem (i.e. it is both solvable, and you can solve; these are not the same thing)</li>
+  <li>our MVP (minimum viable product) will deliver the necessary value to first customers (i.e. MVP = value proposition or subset of = customers’ problems/benefits)
+    <ul>
+      <li>need to verify
+        <ul>
+          <li>that you understand the problem</li>
+          <li>that the customer knows what they want</li>
+          <li>that you are solving the problem correctly</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>you can clearly communicate the value proposition to the customer/end-user
+    <ul>
+      <li>i.e. our message = our value proposition = customers problem/benefits = customers understanding of problem</li>
+    </ul>
+  </li>
+  <li>you have access to the decision makers (and influencers, end-users/etc.)</li>
+  <li>you can reach our target market and get them to respond
+    <ul>
+      <li>for example, you can get them to register their email, or to buy the product (etc.)</li>
+    </ul>
+  </li>
+  <li>the customer will pay someone to solve this problem</li>
+  <li>the customer will pay us to solve this problem</li>
+  <li>our solution is profitable</li>
+  <li>our solution is scalable
+    <ul>
+      <li>that is, you will make $X revenue and $Y profit over Z time</li>
+    </ul>
+  </li>
+</ul>
+:ET
